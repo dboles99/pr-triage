@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+*.sqlite
+.env
+.env.*
+out/
+.pr-triage-cache/
+.superpowers/
+study/raw/
