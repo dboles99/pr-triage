@@ -1,0 +1,22 @@
+#!/bin/sh
+# Owner rule: only Daniel Boles (daniel.boles@gmail.com) or dboles99 may author or commit,
+# and no co-author or tool-attribution lines are allowed. Installed by scripts/Install-GitHooks.ps1.
+msg="$1"
+ok_ident='^(Daniel Boles <daniel\.boles@gmail\.com>|Daniel Boles <[0-9]+\+dboles99@users\.noreply\.github\.com>|dboles99 <[^>]+>)'
+
+for who in GIT_AUTHOR_IDENT GIT_COMMITTER_IDENT; do
+  ident=$(git var "$who" | sed 's/ [0-9]* [-+][0-9]*$//')
+  if ! printf '%s\n' "$ident" | grep -Eq "$ok_ident"; then
+    echo "commit-msg: $who is not Daniel Boles/dboles99 - commit refused." >&2
+    exit 1
+  fi
+done
+
+# The only co-author allowed, when a platform requires one, is Daniel J. Boles (owner, 2026-11-16).
+body=$(grep -Eiv '^[[:space:]]*co-authored-by:[[:space:]]*Daniel J\. Boles <[^>]+>[[:space:]]*$' "$msg")
+if printf '%s\n' "$body" | grep -Eiq '^[[:space:]]*(co-authored-by|generated[- ]by|generated with|signed-off-by: *(claude|anthropic|copilot|codex)|on-behalf-of)' \
+   || printf '%s\n' "$body" | grep -Eiq '(🤖|generated with \[?claude|noreply@anthropic\.com)'; then
+  echo "commit-msg: co-author or attribution line found - remove it, or if a co-author is required use 'Co-Authored-By: Daniel J. Boles <daniel.boles@gmail.com>'." >&2
+  exit 1
+fi
+exit 0
