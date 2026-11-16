@@ -4,4 +4,4 @@ When an issue attracts many competing pull requests, `pr-triage` checks each one
 and produces a ranked reviewer report with the evidence behind every judgement. A built-in
 calibration harness measures how well each check agrees with real maintainer decisions.
 
-Work in progress.
+Install: `pip install pr-triage`
