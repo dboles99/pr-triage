@@ -1,0 +1,20 @@
+# Copy to .github/workflows/triage.yml. A maintainer comments exactly `/triage` on an issue to get a ranked review
+# of the PRs linked to it. Reads metadata and diffs through the API; never checks out or runs PR code.
+name: pr-triage
+on:
+  issue_comment:
+    types: [created]
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+  checks: read
+jobs:
+  triage:
+    if: ${{ !github.event.issue.pull_request && github.event.comment.body == '/triage' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dboles99/pr-triage@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          hanzo-api-key: ${{ secrets.HANZO_API_KEY }}

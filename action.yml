@@ -1,0 +1,41 @@
+name: pr-triage
+description: Rank an issue's competing pull requests with evidence when a maintainer comments /triage.
+author: Daniel Boles
+branding:
+  icon: list
+  color: gray-dark
+inputs:
+  github-token:
+    description: Token that can read the repository and comment on issues (usually secrets.GITHUB_TOKEN).
+    required: true
+  hanzo-api-key:
+    description: Optional Hanzo API key for the advisory Kai checks. Leave empty to skip them.
+    required: false
+    default: ""
+  max-kai-calls:
+    description: Upper bound on Kai decisions per run.
+    required: false
+    default: "20"
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+    - name: Install pr-triage
+      shell: bash
+      run: python -m pip install --quiet "${{ github.action_path }}"
+    - name: Review the issue and comment
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+        HANZO_API_KEY: ${{ inputs.hanzo-api-key }}
+        MAX_KAI_CALLS: ${{ inputs.max-kai-calls }}
+      run: python -m pr_triage.action
+    - name: Upload the full report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: pr-triage-report
+        path: out/report.md
+        if-no-files-found: ignore

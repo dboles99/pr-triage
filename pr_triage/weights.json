@@ -1,0 +1,18 @@
+{
+  "version": "0-unfitted-models-off",
+  "note": "Deterministic checks weighted equally; Kai checks weight 0 (shown, not scored) because the 2026-11-16 study found a failed positive control and AUC 0.51/0.54. Not fitted: see study/results/REPORT.md.",
+  "weights": {
+    "touches_target": 1.0,
+    "scope_creep": 1.0,
+    "claim_vs_diff": 1.0,
+    "criteria_static": 1.0,
+    "duplicate_of": 1.0,
+    "residue": 1.0,
+    "hidden_text": 1.0,
+    "payment_request": 1.0,
+    "ci_state": 1.0,
+    "injection": 0.0,
+    "addresses_issue": 0.0,
+    "effort": 0.0
+  }
+}

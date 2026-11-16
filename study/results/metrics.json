@@ -1,0 +1,267 @@
+{
+ "tool": {
+  "top1": 0.2591,
+  "mrr": 0.5148,
+  "n_issues": 24,
+  "mrr_ci95": [
+   0.4441,
+   0.5838
+  ],
+  "tie_rule": "expected over ties"
+ },
+ "baselines": {
+  "earliest": {
+   "top1": 0.125,
+   "mrr": 0.3952,
+   "n_issues": 24
+  },
+  "smallest_diff": {
+   "top1": 0.0833,
+   "mrr": 0.3255,
+   "n_issues": 24
+  },
+  "most_reactions": {
+   "top1": 0.2041,
+   "mrr": 0.4404,
+   "n_issues": 24
+  },
+  "random": {
+   "top1": 0.2041,
+   "mrr": 0.4404,
+   "n_issues": 24
+  }
+ },
+ "loio": {
+  "weights": {
+   "addresses_issue": 0.5,
+   "ci_state": 2,
+   "claim_vs_diff": 0,
+   "criteria_static": 1.0,
+   "duplicate_of": 1.0,
+   "effort": 1.0,
+   "hidden_text": 1.0,
+   "injection": 1.0,
+   "payment_request": 1.0,
+   "residue": 1.0,
+   "scope_creep": 1.0,
+   "touches_target": 1.0
+  },
+  "folds": {
+   "hanzoai/agents#10": 0.3704081632653061,
+   "hanzoai/agents#6": 0.225,
+   "hanzoai/agents#7": 0.3208333333333333,
+   "hanzoai/agents#8": 0.3704081632653061,
+   "hanzoai/agents#9": 0.10067340067340068,
+   "hanzoai/ai#130": 0.5208333333333334,
+   "hanzoai/ai#131": 0.5208333333333334,
+   "hanzoai/ai#132": 0.611111111111111,
+   "hanzoai/ai#134": 0.3611111111111111,
+   "hanzoai/ai#136": 0.75,
+   "hanzoai/ai#137": 0.5208333333333334,
+   "hanzoai/ci#12": 0.75,
+   "hanzoai/ci#13": 0.611111111111111,
+   "hanzoai/cli#11": 1.0,
+   "hanzoai/cli#12": 0.611111111111111,
+   "hanzoai/mcp#14": 0.5208333333333334,
+   "hanzoai/orm#6": 1.0,
+   "hanzoai/orm#7": 1.0,
+   "hanzoai/orm#8": 0.5208333333333334,
+   "hanzoai/sqlite#3": 0.75,
+   "hanzoai/sqlite#4": 0.45666666666666667,
+   "hanzoai/ui#257": 0.13392857142857142,
+   "hanzoai/ui#258": 0.5,
+   "hanzoai/vfs#29": 0.75
+  },
+  "loio_mrr": 0.5532
+ },
+ "weights_version": "0-unfitted-models-off",
+ "controls": [
+  {
+   "question": "planted",
+   "expect": true,
+   "value": 0.5748670268447672,
+   "got": false,
+   "pass": false
+  },
+  {
+   "question": "planted",
+   "expect": false,
+   "value": 0.010949873912103706,
+   "got": false,
+   "pass": true
+  },
+  {
+   "question": "addresses_issue",
+   "expect": true,
+   "value": 0.5285135579700084,
+   "got": true,
+   "pass": true
+  },
+  {
+   "question": "addresses_issue",
+   "expect": false,
+   "value": 0.4783584800556129,
+   "got": false,
+   "pass": true
+  },
+  {
+   "question": "effort",
+   "expect": true,
+   "value": 1,
+   "got": true,
+   "pass": true
+  },
+  {
+   "question": "effort",
+   "expect": false,
+   "value": 2,
+   "got": true,
+   "pass": false
+  }
+ ],
+ "kai_calls": 0,
+ "kai_micro_usd": 0.0,
+ "diagnosis": {
+  "pass_rates": {
+   "addresses_issue": {
+    "merged": [
+     19,
+     24
+    ],
+    "not_merged": [
+     94,
+     122
+    ]
+   },
+   "ci_state": {
+    "merged": [
+     24,
+     24
+    ],
+    "not_merged": [
+     108,
+     108
+    ]
+   },
+   "claim_vs_diff": {
+    "merged": [
+     23,
+     24
+    ],
+    "not_merged": [
+     119,
+     120
+    ]
+   },
+   "criteria_static": {
+    "merged": [
+     0,
+     0
+    ],
+    "not_merged": [
+     0,
+     0
+    ]
+   },
+   "duplicate_of": {
+    "merged": [
+     23,
+     24
+    ],
+    "not_merged": [
+     109,
+     122
+    ]
+   },
+   "effort": {
+    "merged": [
+     24,
+     24
+    ],
+    "not_merged": [
+     122,
+     122
+    ]
+   },
+   "hidden_text": {
+    "merged": [
+     24,
+     24
+    ],
+    "not_merged": [
+     122,
+     122
+    ]
+   },
+   "injection": {
+    "merged": [
+     24,
+     24
+    ],
+    "not_merged": [
+     122,
+     122
+    ]
+   },
+   "payment_request": {
+    "merged": [
+     22,
+     24
+    ],
+    "not_merged": [
+     96,
+     122
+    ]
+   },
+   "residue": {
+    "merged": [
+     24,
+     24
+    ],
+    "not_merged": [
+     122,
+     122
+    ]
+   },
+   "scope_creep": {
+    "merged": [
+     12,
+     17
+    ],
+    "not_merged": [
+     51,
+     92
+    ]
+   },
+   "touches_target": {
+    "merged": [
+     13,
+     17
+    ],
+    "not_merged": [
+     51,
+     92
+    ]
+   }
+  },
+  "never_fail": [
+   "ci_state",
+   "effort",
+   "injection",
+   "residue"
+  ],
+  "label_ranker": {
+   "mrr": 0.5812,
+   "top1": 0.3393,
+   "n_issues": 24
+  },
+  "acceptable_among_merged": [
+   23,
+   24
+  ],
+  "acceptable_among_not_merged": [
+   83,
+   122
+  ]
+ }
+}

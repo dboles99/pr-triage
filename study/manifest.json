@@ -1,0 +1,1132 @@
+{
+ "collected_at": "2026-11-16T02:34:55+00:00",
+ "method": "GitHub search label:bounty in the orgs above; linked PRs = timeline cross-referenced pull requests, any state, any repo",
+ "tool_version": "0.1.0",
+ "exclusions": [
+  {
+   "ref": "hanzo-go/lz4#1",
+   "reason": "the author's own PR (#22) competes on this issue; excluded for conflict of interest"
+  }
+ ],
+ "issues": [
+  {
+   "ref": "hanzoai/vfs#29",
+   "url": "https://github.com/hanzoai/vfs/issues/29",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/vfs#35"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/vfs#35",
+     "url": "https://github.com/hanzoai/vfs/pull/35",
+     "sha256": "18c952a8c4b1f7b50e33ccbfccbfc3b4b907729fbc2a7f98889c844e55c220f0"
+    },
+    {
+     "ref": "hanzoai/vfs#37",
+     "url": "https://github.com/hanzoai/vfs/pull/37",
+     "sha256": "53ecd03e5f671bc2f3e7c37962f787df781678ebc1f8a9d26a8c8d434f09f08e"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ai#138",
+   "url": "https://github.com/hanzoai/ai/issues/138",
+   "outcome": "multi-merged",
+   "merged": [
+    "hanzoai/ai#143",
+    "hanzoai/ai#147",
+    "hanzoai/ai#149",
+    "hanzoai/ai#151"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ai#143",
+     "url": "https://github.com/hanzoai/ai/pull/143",
+     "sha256": "6544a62502a58182906823d26cbd7f5f13ad3a424e25b30c0269ae308ca4d464"
+    },
+    {
+     "ref": "hanzoai/ai#147",
+     "url": "https://github.com/hanzoai/ai/pull/147",
+     "sha256": "c9c7bb1948c013731287a6848909d25c5dc2920413273009e6d2fa8c5e03e575"
+    },
+    {
+     "ref": "hanzoai/ai#149",
+     "url": "https://github.com/hanzoai/ai/pull/149",
+     "sha256": "1e991b0fbb0b5f03080e0d4449212eea578b6a5801612f55821041688d39da9b"
+    },
+    {
+     "ref": "hanzoai/ai#151",
+     "url": "https://github.com/hanzoai/ai/pull/151",
+     "sha256": "95c5770ad7f412c963b7a87120529f0ba8f86f8a8a8515408e9548bba741176b"
+    },
+    {
+     "ref": "hanzoai/ai#153",
+     "url": "https://github.com/hanzoai/ai/pull/153",
+     "sha256": "dd62586fa18412fe0e0a23b0734ff0fdf888edf168ce5c91780655193b7030b5"
+    },
+    {
+     "ref": "hanzoai/ai#156",
+     "url": "https://github.com/hanzoai/ai/pull/156",
+     "sha256": "9ae97c09d74a7f3f85bd543be04a7e826c2e86ee19fb7cb6c1c38ffd3e47db4f"
+    },
+    {
+     "ref": "hanzoai/ai#160",
+     "url": "https://github.com/hanzoai/ai/pull/160",
+     "sha256": "5544173fa532d7b69c03b52fb2a30317d5b41456e85494bdfaf3effe9c37d2cc"
+    },
+    {
+     "ref": "satoshinakamoto666666/ai#2",
+     "url": "https://github.com/satoshinakamoto666666/ai/pull/2",
+     "sha256": "66516960c7ceeea7d311f92a015ab21537185a0dd0a894c109fe2565394fba01"
+    },
+    {
+     "ref": "hanzoai/ai#163",
+     "url": "https://github.com/hanzoai/ai/pull/163",
+     "sha256": "7d38f7b086f57ead594df9d7e0850069cc56ee86608c08c1dd536e86a98bceaf"
+    },
+    {
+     "ref": "hanzoai/ai#177",
+     "url": "https://github.com/hanzoai/ai/pull/177",
+     "sha256": "adbb7f82697f236f9bddf2238799699cb9004b51eaf3c060cbfa5561733cc952"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ai#137",
+   "url": "https://github.com/hanzoai/ai/issues/137",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/ai#161"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ai#145",
+     "url": "https://github.com/hanzoai/ai/pull/145",
+     "sha256": "3e23b276709d1e6c6609b0707e3d94132618b046c3941b698b46d79c468a921b"
+    },
+    {
+     "ref": "hanzoai/ai#157",
+     "url": "https://github.com/hanzoai/ai/pull/157",
+     "sha256": "008b5e10a6dde5089e7b1837fe6bf5815842cd0fb97fb26fef205756510b9f1d"
+    },
+    {
+     "ref": "hanzoai/ai#161",
+     "url": "https://github.com/hanzoai/ai/pull/161",
+     "sha256": "6a7ce181916b8df512c89f67a129ab3e9d095a017d5cd987371e8b2db0241526"
+    },
+    {
+     "ref": "satoshinakamoto666666/ai#1",
+     "url": "https://github.com/satoshinakamoto666666/ai/pull/1",
+     "sha256": "3ba5f6c6125341955a41d24dcf79cc58a2979afe5af08226e592e6dc93d3e4e5"
+    },
+    {
+     "ref": "hanzoai/ai#162",
+     "url": "https://github.com/hanzoai/ai/pull/162",
+     "sha256": "42110ec5f1af18fca68e339318b7863dcd717183d38cfe2242de00bf6af36f26"
+    },
+    {
+     "ref": "hanzoai/ai#178",
+     "url": "https://github.com/hanzoai/ai/pull/178",
+     "sha256": "bed7747b5db54cc89dab2454d60d9d889f5b652be2fc0bd0d85061d0cd6bee4f"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ai#136",
+   "url": "https://github.com/hanzoai/ai/issues/136",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/ai#184"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ai#154",
+     "url": "https://github.com/hanzoai/ai/pull/154",
+     "sha256": "d5e6d84ca9f52b1f8eef1bbc9dea1c83771642b635bf3a4963bfccae8a3ed7f8"
+    },
+    {
+     "ref": "satoshinakamoto666666/ai#3",
+     "url": "https://github.com/satoshinakamoto666666/ai/pull/3",
+     "sha256": "7544246c9c31ca1d1b1def42e2ba927dab99ec7c4261820f96cab2cf91bc5383"
+    },
+    {
+     "ref": "hanzoai/ai#164",
+     "url": "https://github.com/hanzoai/ai/pull/164",
+     "sha256": "3d52d17a74ba85428e7be7cf77b61d8dce601c925888c7e3da7415ac174da412"
+    },
+    {
+     "ref": "hanzoai/ai#171",
+     "url": "https://github.com/hanzoai/ai/pull/171",
+     "sha256": "d4e8b2afc08cc947f49e3db106e0e6b05c0cbf0c39984f8fd47d8072e66a23b4"
+    },
+    {
+     "ref": "hanzoai/ai#175",
+     "url": "https://github.com/hanzoai/ai/pull/175",
+     "sha256": "592d1452aa56a21e383f478728c468db2aec79b1ba07ae05f804a29f278c21ae"
+    },
+    {
+     "ref": "hanzoai/ai#184",
+     "url": "https://github.com/hanzoai/ai/pull/184",
+     "sha256": "27df0ce957e624b534555f0856ac22dd8e29fb40867d8159ac7ca522b45faec6"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ai#135",
+   "url": "https://github.com/hanzoai/ai/issues/135",
+   "outcome": "multi-merged",
+   "merged": [
+    "hanzoai/ai#147",
+    "hanzoai/ai#149",
+    "hanzoai/ai#151"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ai#147",
+     "url": "https://github.com/hanzoai/ai/pull/147",
+     "sha256": "c9c7bb1948c013731287a6848909d25c5dc2920413273009e6d2fa8c5e03e575"
+    },
+    {
+     "ref": "hanzoai/ai#149",
+     "url": "https://github.com/hanzoai/ai/pull/149",
+     "sha256": "1e991b0fbb0b5f03080e0d4449212eea578b6a5801612f55821041688d39da9b"
+    },
+    {
+     "ref": "hanzoai/ai#151",
+     "url": "https://github.com/hanzoai/ai/pull/151",
+     "sha256": "95c5770ad7f412c963b7a87120529f0ba8f86f8a8a8515408e9548bba741176b"
+    },
+    {
+     "ref": "hanzoai/ai#155",
+     "url": "https://github.com/hanzoai/ai/pull/155",
+     "sha256": "50b46a6696853e8f02255dcf13937756ed3b57761d8448fb8514c40997dffa70"
+    },
+    {
+     "ref": "hanzoai/ai#176",
+     "url": "https://github.com/hanzoai/ai/pull/176",
+     "sha256": "faa729f070d7a6bdffde2a3181df111425330f40f067c55f8a609e9745b3addc"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ai#134",
+   "url": "https://github.com/hanzoai/ai/issues/134",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/ai#141"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ai#141",
+     "url": "https://github.com/hanzoai/ai/pull/141",
+     "sha256": "6aceacf9f70c0754d314f76c080ead8b482afa10386b021ea9fd3a134ece39cf"
+    },
+    {
+     "ref": "satoshinakamoto666666/ai#4",
+     "url": "https://github.com/satoshinakamoto666666/ai/pull/4",
+     "sha256": "ca7c187d43d906724b156d161476aff4aef86f81ac4e269170266ca15da3b9b4"
+    },
+    {
+     "ref": "hanzoai/ai#165",
+     "url": "https://github.com/hanzoai/ai/pull/165",
+     "sha256": "8a7f72097e6c1fb8849abc5c9bee611fbf7cc97c5d650e8edf2ebb988c35bf52"
+    },
+    {
+     "ref": "hanzoai/ai#170",
+     "url": "https://github.com/hanzoai/ai/pull/170",
+     "sha256": "6c0239048ed2b4a4da66b91f74e33e52725988c963fc10329fba094a6377e95f"
+    },
+    {
+     "ref": "hanzoai/ai#173",
+     "url": "https://github.com/hanzoai/ai/pull/173",
+     "sha256": "eb7eb13d0ab2edbc0dbaeae3c8d5c2b5a3f6a9daf5021a51a188327365e285fa"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ai#133",
+   "url": "https://github.com/hanzoai/ai/issues/133",
+   "outcome": "multi-merged",
+   "merged": [
+    "hanzoai/ai#149",
+    "hanzoai/ai#151"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ai#149",
+     "url": "https://github.com/hanzoai/ai/pull/149",
+     "sha256": "1e991b0fbb0b5f03080e0d4449212eea578b6a5801612f55821041688d39da9b"
+    },
+    {
+     "ref": "hanzoai/ai#151",
+     "url": "https://github.com/hanzoai/ai/pull/151",
+     "sha256": "95c5770ad7f412c963b7a87120529f0ba8f86f8a8a8515408e9548bba741176b"
+    },
+    {
+     "ref": "hanzoai/ai#158",
+     "url": "https://github.com/hanzoai/ai/pull/158",
+     "sha256": "bc302fa5e48788d2a71f930f7374b14e3432142b1a45cc17e34afa45c89cf649"
+    },
+    {
+     "ref": "satoshinakamoto666666/ai#5",
+     "url": "https://github.com/satoshinakamoto666666/ai/pull/5",
+     "sha256": "0d793b15d2f8f7f67e2accde27bbcc79f3202941e824718b7d2cdd75776bb824"
+    },
+    {
+     "ref": "hanzoai/ai#166",
+     "url": "https://github.com/hanzoai/ai/pull/166",
+     "sha256": "4cfdd8bcf1f2c82916a4cf4da0ba6a85708615cd5687a62622adedc3993e71c0"
+    },
+    {
+     "ref": "hanzoai/ai#181",
+     "url": "https://github.com/hanzoai/ai/pull/181",
+     "sha256": "a410619286104aea7737dfd83b6f5440475ae0a6f4f12775fb3dafc994d843f2"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ai#132",
+   "url": "https://github.com/hanzoai/ai/issues/132",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/ai#183"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ai#150",
+     "url": "https://github.com/hanzoai/ai/pull/150",
+     "sha256": "0154480624dbf2e9895c8105184a296f1cfe4df2f8cf1391936de33b7485e7bb"
+    },
+    {
+     "ref": "hanzoai/ai#159",
+     "url": "https://github.com/hanzoai/ai/pull/159",
+     "sha256": "551d6e2570a4727636fc593599e4b2ac301cbec5e9294e8fa1c030e6ff8131f3"
+    },
+    {
+     "ref": "satoshinakamoto666666/ai#6",
+     "url": "https://github.com/satoshinakamoto666666/ai/pull/6",
+     "sha256": "a892a30a4cb31599e6690b0d6e1a1306ae23d397b84dcd94e2d26c2f3b8f3496"
+    },
+    {
+     "ref": "hanzoai/ai#167",
+     "url": "https://github.com/hanzoai/ai/pull/167",
+     "sha256": "7210a10fe7ec8632f6a9d7c05bf0742375f0d811ace84a98b6b1465f5bf8bac1"
+    },
+    {
+     "ref": "hanzoai/ai#180",
+     "url": "https://github.com/hanzoai/ai/pull/180",
+     "sha256": "e2549b58fddcf053a12705e09dde8e98eb5fd287a7df2a11248c1acef6bbe337"
+    },
+    {
+     "ref": "hanzoai/ai#183",
+     "url": "https://github.com/hanzoai/ai/pull/183",
+     "sha256": "adc605a2f956b657d795b40d0a135729888078026cc9d0350791b41530fa6f91"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ai#131",
+   "url": "https://github.com/hanzoai/ai/issues/131",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/ai#151"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ai#142",
+     "url": "https://github.com/hanzoai/ai/pull/142",
+     "sha256": "07877f6d3dc50becfecf7cde0100a731b77a8e9314e470ed7e1943ff84353b5b"
+    },
+    {
+     "ref": "hanzoai/ai#151",
+     "url": "https://github.com/hanzoai/ai/pull/151",
+     "sha256": "95c5770ad7f412c963b7a87120529f0ba8f86f8a8a8515408e9548bba741176b"
+    },
+    {
+     "ref": "satoshinakamoto666666/ai#7",
+     "url": "https://github.com/satoshinakamoto666666/ai/pull/7",
+     "sha256": "586f290dca2910638d9d1454d0fd4e45fe77e28cbe805e861b701e21d04c3760"
+    },
+    {
+     "ref": "hanzoai/ai#168",
+     "url": "https://github.com/hanzoai/ai/pull/168",
+     "sha256": "ca775f6fc1b5b330cae6e37fb16f70cf71b4db3196c12479b3274b022d072037"
+    },
+    {
+     "ref": "hanzoai/ai#174",
+     "url": "https://github.com/hanzoai/ai/pull/174",
+     "sha256": "3c3e2c206de1b89f9784579ed270802e456de3499d4bb482d5e54145fe825ef3"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ai#130",
+   "url": "https://github.com/hanzoai/ai/issues/130",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/ai#152"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ai#140",
+     "url": "https://github.com/hanzoai/ai/pull/140",
+     "sha256": "2cca1da6497fd0db424d59319aef48e8efe0a20a78b4c4921f29a985bf648f8f"
+    },
+    {
+     "ref": "hanzoai/ai#144",
+     "url": "https://github.com/hanzoai/ai/pull/144",
+     "sha256": "698f65b6873aa744e31cfd13dc5738752d50efe578a2fc810a9d9bf694edd5c5"
+    },
+    {
+     "ref": "hanzoai/ai#152",
+     "url": "https://github.com/hanzoai/ai/pull/152",
+     "sha256": "4e164351ecded66969f6669962b14a6503d7f83eeff1d5db21a576f9e0ffe56e"
+    },
+    {
+     "ref": "satoshinakamoto666666/ai#8",
+     "url": "https://github.com/satoshinakamoto666666/ai/pull/8",
+     "sha256": "179b584a243241dbe0e450dafff5bb33376981a48c1770fe4d43ea82fab916a5"
+    },
+    {
+     "ref": "hanzoai/ai#169",
+     "url": "https://github.com/hanzoai/ai/pull/169",
+     "sha256": "108ebe568cfacf34caed07fe10b00774138151cb66380e0fd31af5b017cc8c27"
+    },
+    {
+     "ref": "hanzoai/ai#172",
+     "url": "https://github.com/hanzoai/ai/pull/172",
+     "sha256": "70123c9d682aea8d7686be140b62e21f9e2e99d22a3187cf113ee3464651cdcf"
+    },
+    {
+     "ref": "hanzoai/ai#179",
+     "url": "https://github.com/hanzoai/ai/pull/179",
+     "sha256": "4319e909095621841fc47f32f43ecf872ccfd56931b8bba094553d84203c8fe3"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ui#258",
+   "url": "https://github.com/hanzoai/ui/issues/258",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/ui#263"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ui#260",
+     "url": "https://github.com/hanzoai/ui/pull/260",
+     "sha256": "90568ac3b58821cf25bb844d70b88a37f64109b047b0a8d95833bce62f4e2886"
+    },
+    {
+     "ref": "hanzoai/ui#263",
+     "url": "https://github.com/hanzoai/ui/pull/263",
+     "sha256": "39fede8d9508d0e7a7fe4e87d7d799f84ed91b45a8f06e20322e707e64fabf4a"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ui#257",
+   "url": "https://github.com/hanzoai/ui/issues/257",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/ui#267"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ui#259",
+     "url": "https://github.com/hanzoai/ui/pull/259",
+     "sha256": "d92472a5bfb7039a0c8aaa8945aa7a4c095633ff876d0c832ba46f56d8070fc0"
+    },
+    {
+     "ref": "hanzoai/ui#261",
+     "url": "https://github.com/hanzoai/ui/pull/261",
+     "sha256": "6733f97a4245b666fd0703e950ed7df3ac2c6928c7de15013475859f8a8474ea"
+    },
+    {
+     "ref": "hanzoai/ui#262",
+     "url": "https://github.com/hanzoai/ui/pull/262",
+     "sha256": "8e70ba5e44c6db545d8a8c76212c9beeaccf4222e9e0b77b25c0555ec0dedeee"
+    },
+    {
+     "ref": "hanzoai/ui#267",
+     "url": "https://github.com/hanzoai/ui/pull/267",
+     "sha256": "85b7ddc425c8a850906bdd778d60e31d1ab0661cdd490a59d8cca3075b44f2a4"
+    },
+    {
+     "ref": "hanzoai/ui#268",
+     "url": "https://github.com/hanzoai/ui/pull/268",
+     "sha256": "d4dd6937d5f4e83de66694ab984236a2d2686ee697766cb80bed7081e38afc97"
+    },
+    {
+     "ref": "hanzoai/ui#269",
+     "url": "https://github.com/hanzoai/ui/pull/269",
+     "sha256": "44b9093957dddaf8f428c1bec25085d4b6c0b92989248a4cd895a430b70ccb99"
+    },
+    {
+     "ref": "hanzoai/ui#279",
+     "url": "https://github.com/hanzoai/ui/pull/279",
+     "sha256": "70f9375556dc487fb0baea164aeb934c38d3e763c154944c7719b576232c0a1f"
+    },
+    {
+     "ref": "hanzoai/ui#278",
+     "url": "https://github.com/hanzoai/ui/pull/278",
+     "sha256": "4f3f2f05cedef55d037ec74ccf79491097517d647df9a0134326969e196b27f9"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/agents#10",
+   "url": "https://github.com/hanzoai/agents/issues/10",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/agents#55"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/agents#15",
+     "url": "https://github.com/hanzoai/agents/pull/15",
+     "sha256": "f6e9071dabb8a66556b6ad86726f3b16824dfc5a52d3c41287a9c8ca500df4a3"
+    },
+    {
+     "ref": "hanzoai/agents#20",
+     "url": "https://github.com/hanzoai/agents/pull/20",
+     "sha256": "bd9f2fac0a889b8b33c30e5f88c201c690e6dc2405467935ca0a742c8923b8b3"
+    },
+    {
+     "ref": "hanzoai/agents#22",
+     "url": "https://github.com/hanzoai/agents/pull/22",
+     "sha256": "eb9b7e06f460af32356634a4a54dc39bf5c5c8e4e9a78449d242373955c7c8bb"
+    },
+    {
+     "ref": "hanzoai/agents#27",
+     "url": "https://github.com/hanzoai/agents/pull/27",
+     "sha256": "0aa38da0a59376b92e5a07cf3c0f30c29cc459a2c106d561ae5ba109e8533ec9"
+    },
+    {
+     "ref": "hanzoai/agents#39",
+     "url": "https://github.com/hanzoai/agents/pull/39",
+     "sha256": "4351dd5b8aed8b3efe8076f0e317dbfd7d7a86a16690e85e416ea10d704901ff"
+    },
+    {
+     "ref": "hanzoai/agents#44",
+     "url": "https://github.com/hanzoai/agents/pull/44",
+     "sha256": "27f8df49db5b0e75d89d05c9a8ed57cdff810915e62f05767b7c5d146b1f7606"
+    },
+    {
+     "ref": "hanzoai/agents#55",
+     "url": "https://github.com/hanzoai/agents/pull/55",
+     "sha256": "27892ac56c50541e87faae1b2877dac65f8b66f892f73d2918c9be7c254a2d33"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/agents#9",
+   "url": "https://github.com/hanzoai/agents/issues/9",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/agents#36"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/agents#14",
+     "url": "https://github.com/hanzoai/agents/pull/14",
+     "sha256": "033218ef804c83e0b3ddce242e2aaa7893de1709162e70db8b2c04204dd41815"
+    },
+    {
+     "ref": "hanzoai/agents#21",
+     "url": "https://github.com/hanzoai/agents/pull/21",
+     "sha256": "3845b05f8a6ebc5ed6e3323d56e3651587fe565eab40a845565a35be82269569"
+    },
+    {
+     "ref": "hanzoai/agents#26",
+     "url": "https://github.com/hanzoai/agents/pull/26",
+     "sha256": "fec1829673bb3f7bf8dd3c462077546d3801e41a8fdbfe7fa47edd57d3635874"
+    },
+    {
+     "ref": "hanzoai/agents#28",
+     "url": "https://github.com/hanzoai/agents/pull/28",
+     "sha256": "2072a031bb1ae6848e678ab78b6a3ddd84fd604d79ed2905b021e73a09587e25"
+    },
+    {
+     "ref": "hanzoai/agents#36",
+     "url": "https://github.com/hanzoai/agents/pull/36",
+     "sha256": "5da9f2cf4bbcd626bf053b63f5673ecd29ca3b64807fd85d243073a060aacc84"
+    },
+    {
+     "ref": "hanzoai/agents#42",
+     "url": "https://github.com/hanzoai/agents/pull/42",
+     "sha256": "55145309c2a2bf332d43bbd0ef44b59e447431ece583800ecb7ba6043143d479"
+    },
+    {
+     "ref": "hanzoai/agents#43",
+     "url": "https://github.com/hanzoai/agents/pull/43",
+     "sha256": "9a9b68a62bb34f1a14abb572381fbed87eb8f3a5d5d4efcdf3b283cbc290096f"
+    },
+    {
+     "ref": "Boxxji/agents#1",
+     "url": "https://github.com/Boxxji/agents/pull/1",
+     "sha256": "b3e84f1725ca6ed9c32a50f5357fa910209d5b8d283e74d4029670c689543411"
+    },
+    {
+     "ref": "satoshinakamoto666666/agents#2",
+     "url": "https://github.com/satoshinakamoto666666/agents/pull/2",
+     "sha256": "0b3065e175bd8dbdc66f1029973af5c6acdf929ff398662b368aebc4d91f1d1b"
+    },
+    {
+     "ref": "hanzoai/agents#60",
+     "url": "https://github.com/hanzoai/agents/pull/60",
+     "sha256": "4f9beb589604600f765ab051173638a0332125e9f6baad034efe2f268d37cf25"
+    },
+    {
+     "ref": "hanzoai/agents#61",
+     "url": "https://github.com/hanzoai/agents/pull/61",
+     "sha256": "93b2710ce4ae5f468f267eebbc1a4737f957fd7fb8b01bd027ffc492a995ac13"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/agents#8",
+   "url": "https://github.com/hanzoai/agents/issues/8",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/agents#25"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/agents#11",
+     "url": "https://github.com/hanzoai/agents/pull/11",
+     "sha256": "f84108d6135d198c50386cd4b072e25e37ed3e1bd9864d8b59e6bac5653c5419"
+    },
+    {
+     "ref": "hanzoai/agents#13",
+     "url": "https://github.com/hanzoai/agents/pull/13",
+     "sha256": "a0c03145293d39b91368394fec5228a93c9b62321caf6c5928b4c5349631da6b"
+    },
+    {
+     "ref": "hanzoai/agents#16",
+     "url": "https://github.com/hanzoai/agents/pull/16",
+     "sha256": "961210b8ea311b31c713cfb02469d53a2ce027006d0370617236232aeeed5fef"
+    },
+    {
+     "ref": "hanzoai/agents#19",
+     "url": "https://github.com/hanzoai/agents/pull/19",
+     "sha256": "4c31c3967fe483c04c162403a34cdaae9b53ca2408f7dc75b41fb31470c9f9d9"
+    },
+    {
+     "ref": "hanzoai/agents#25",
+     "url": "https://github.com/hanzoai/agents/pull/25",
+     "sha256": "79acfe31192ae0e1bf1a432ac328faf506f74521b600eef375d6a729d921a379"
+    },
+    {
+     "ref": "hanzoai/agents#35",
+     "url": "https://github.com/hanzoai/agents/pull/35",
+     "sha256": "799ebe7c18d149676a9bd522eaea75e66548dce5181003900e04d43c98d829bf"
+    },
+    {
+     "ref": "hanzoai/agents#40",
+     "url": "https://github.com/hanzoai/agents/pull/40",
+     "sha256": "4cfc54067196a2ec512259d926c24c6ecb39e0268dc49ffb09a5585561f98f0b"
+    },
+    {
+     "ref": "hanzoai/agents#47",
+     "url": "https://github.com/hanzoai/agents/pull/47",
+     "sha256": "5451d4cb4581b294ec825fde8095381669879307f038c0dc54bf7fd0156bd103"
+    },
+    {
+     "ref": "Boxxji/agents#2",
+     "url": "https://github.com/Boxxji/agents/pull/2",
+     "sha256": "330c5aa611fcce3b82de485d01cbce19bf7ad6b1b883702ad186dea4d7c85816"
+    },
+    {
+     "ref": "hanzoai/agents#57",
+     "url": "https://github.com/hanzoai/agents/pull/57",
+     "sha256": "69335b7fe1d2ecf245aed6d2ffc984f5d594857b96a712b8ba4ac097dddbf0c5"
+    },
+    {
+     "ref": "hanzoai/agents#58",
+     "url": "https://github.com/hanzoai/agents/pull/58",
+     "sha256": "087a4bd37a235094e92b65ee4f905c251786156cc6e9a3095b6b992657bd6664"
+    },
+    {
+     "ref": "satoshinakamoto666666/agents#1",
+     "url": "https://github.com/satoshinakamoto666666/agents/pull/1",
+     "sha256": "8d0e53f1d0603685f4e14c6d3f9155bf20a608102fe3d42e9d99513d7a2ee364"
+    },
+    {
+     "ref": "hanzoai/agents#59",
+     "url": "https://github.com/hanzoai/agents/pull/59",
+     "sha256": "218237079fd47a073815e12048d3b63a2e5c16eda557b836d52f8a23c6d384de"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/agents#7",
+   "url": "https://github.com/hanzoai/agents/issues/7",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/agents#48"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/agents#12",
+     "url": "https://github.com/hanzoai/agents/pull/12",
+     "sha256": "b6f67f7b19e3d3ad8dbe9a0d04984b7c06e913ead1aca1796ab3efcd4d764fcc"
+    },
+    {
+     "ref": "hanzoai/agents#17",
+     "url": "https://github.com/hanzoai/agents/pull/17",
+     "sha256": "460f7f064579442d83c95f7af71a2803de63ca729acd43825b783548ea65ea54"
+    },
+    {
+     "ref": "hanzoai/agents#24",
+     "url": "https://github.com/hanzoai/agents/pull/24",
+     "sha256": "ee803e146c82f1f39d6d38cf6ebc986c2da6000c664f8f6793256adbebe25450"
+    },
+    {
+     "ref": "hanzoai/agents#37",
+     "url": "https://github.com/hanzoai/agents/pull/37",
+     "sha256": "276741e0fb13ce6f8b36adbee33247ad36ed45349141a6771593325f2bc46123"
+    },
+    {
+     "ref": "hanzoai/agents#38",
+     "url": "https://github.com/hanzoai/agents/pull/38",
+     "sha256": "c6b35d8040cb44f280f93ed226f3c01d8d2ac3f88cef4b89e767950a517d7758"
+    },
+    {
+     "ref": "hanzoai/agents#41",
+     "url": "https://github.com/hanzoai/agents/pull/41",
+     "sha256": "63f7e06e7a38f434977d59d697312151ba9e8709763eb3280cb4fa69881748a7"
+    },
+    {
+     "ref": "hanzoai/agents#46",
+     "url": "https://github.com/hanzoai/agents/pull/46",
+     "sha256": "a42eb7b4af8ac5b2babe1c477754fa5c2612e6c135e52918638773d94a681ffc"
+    },
+    {
+     "ref": "hanzoai/agents#48",
+     "url": "https://github.com/hanzoai/agents/pull/48",
+     "sha256": "586909d42efcad2700924a450c853609cdbd88a370fc7debed0df5f404ffdc43"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/agents#6",
+   "url": "https://github.com/hanzoai/agents/issues/6",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/agents#23"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/agents#18",
+     "url": "https://github.com/hanzoai/agents/pull/18",
+     "sha256": "fd291dc4b6b89ed92ff144a363a390cef52879fd387f82298b4ab1ae2f48efc0"
+    },
+    {
+     "ref": "hanzoai/agents#23",
+     "url": "https://github.com/hanzoai/agents/pull/23",
+     "sha256": "0c4e55ae487ebd716335c05ad1216d9a2e12ea60f04c5356c44cf33293a76611"
+    },
+    {
+     "ref": "hanzoai/agents#45",
+     "url": "https://github.com/hanzoai/agents/pull/45",
+     "sha256": "68f29f6c1a30d8b954246386483ef7caa4c6cc86630fd9223bdc432b545beef2"
+    },
+    {
+     "ref": "hanzoai/agents#56",
+     "url": "https://github.com/hanzoai/agents/pull/56",
+     "sha256": "e2b58fded0009426cb8f2a2c0e570001e30d07398abc11f33fc0a63c690ec4c0"
+    },
+    {
+     "ref": "Boxxji/agents#3",
+     "url": "https://github.com/Boxxji/agents/pull/3",
+     "sha256": "93baf64aa785366247b6ea39bdb0c0961a76e3925adb39e2133ad9910d2c639c"
+    },
+    {
+     "ref": "hanzoai/agents#57",
+     "url": "https://github.com/hanzoai/agents/pull/57",
+     "sha256": "69335b7fe1d2ecf245aed6d2ffc984f5d594857b96a712b8ba4ac097dddbf0c5"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/mcp#14",
+   "url": "https://github.com/hanzoai/mcp/issues/14",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/mcp#16"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/mcp#15",
+     "url": "https://github.com/hanzoai/mcp/pull/15",
+     "sha256": "005c521a3c2f489d68bdf6c6c1e13dcb767ed52224c1e733fa16a1f31e9b723b"
+    },
+    {
+     "ref": "hanzoai/mcp#16",
+     "url": "https://github.com/hanzoai/mcp/pull/16",
+     "sha256": "15ccd58fdb321a8ea950117b1f6b382a6ae7b2b0f2e0643394095248fd958d42"
+    },
+    {
+     "ref": "hanzoai/mcp#17",
+     "url": "https://github.com/hanzoai/mcp/pull/17",
+     "sha256": "1e5a1a0273229c4b175c3b1ab6b1459eed65757067ef62d89e7e9f6a4f895b56"
+    },
+    {
+     "ref": "hanzoai/mcp#18",
+     "url": "https://github.com/hanzoai/mcp/pull/18",
+     "sha256": "2ebc8880fa93b171b02f7060271f93fbcb14f70d07c99b70acc088bb952a806a"
+    },
+    {
+     "ref": "hanzoai/mcp#20",
+     "url": "https://github.com/hanzoai/mcp/pull/20",
+     "sha256": "ddbad866dbfa88683d0ccae045df628e8fdf707416f4411f916df9c55b47cb7d"
+    },
+    {
+     "ref": "hanzoai/mcp#21",
+     "url": "https://github.com/hanzoai/mcp/pull/21",
+     "sha256": "6326cd556c851569bae5f616e7d2d14348b0869e1bdfd5382a34f40fddf9fd93"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/cli#12",
+   "url": "https://github.com/hanzoai/cli/issues/12",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/cli#23"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/cli#14",
+     "url": "https://github.com/hanzoai/cli/pull/14",
+     "sha256": "e232af91605485c26d018435fa2c28f8304d15bf0016fb494d2b293683ac8cc5"
+    },
+    {
+     "ref": "hanzoai/cli#21",
+     "url": "https://github.com/hanzoai/cli/pull/21",
+     "sha256": "a921c2e4e5835e1795f1a6975351da3b7cdda9817616d596631e98ddd7388fbc"
+    },
+    {
+     "ref": "hanzoai/cli#22",
+     "url": "https://github.com/hanzoai/cli/pull/22",
+     "sha256": "cdcf6e1af05fc19904133ba6a09f62ca28279240d4e41d3b07b761aa30e3791e"
+    },
+    {
+     "ref": "hanzoai/cli#23",
+     "url": "https://github.com/hanzoai/cli/pull/23",
+     "sha256": "ed1e14515c1679739d6f2de5dd9194b5fc9d2d3f1b12d49602c4dc36700d8f90"
+    },
+    {
+     "ref": "ahmetsitdev/cli#1",
+     "url": "https://github.com/ahmetsitdev/cli/pull/1",
+     "sha256": "f23c78f12516d9fbb38e2bda09cfeb889aeee3de99cd1b33f4c0b7d3fb1ff62b"
+    },
+    {
+     "ref": "hanzoai/cli#43",
+     "url": "https://github.com/hanzoai/cli/pull/43",
+     "sha256": "9bb5c8fcc8f8988e6d280e68a42d5cbb03058fa8ec9ac37cddc4e7dfc1586d72"
+    },
+    {
+     "ref": "hanzoai/cli#44",
+     "url": "https://github.com/hanzoai/cli/pull/44",
+     "sha256": "ecd8572778047c880cd801a36e7719d2342e49ada03d4fb4263b04ed9b44659a"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/cli#11",
+   "url": "https://github.com/hanzoai/cli/issues/11",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/cli#15"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/cli#13",
+     "url": "https://github.com/hanzoai/cli/pull/13",
+     "sha256": "8c6e90a8a708f48b142e36e7085b9aa775a1b9b5ce8cbef3c8682a4af4125ef8"
+    },
+    {
+     "ref": "hanzoai/cli#15",
+     "url": "https://github.com/hanzoai/cli/pull/15",
+     "sha256": "135a7d5311f6bfaf6be536ce32cbc5632c2203a440e0e8560d5c73f3b9ea9d4f"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ci#13",
+   "url": "https://github.com/hanzoai/ci/issues/13",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/ci#26"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ci#14",
+     "url": "https://github.com/hanzoai/ci/pull/14",
+     "sha256": "552670026419c472f2b53c425903edfc16b3c0829e05930570564fda7a7cca46"
+    },
+    {
+     "ref": "hanzoai/ci#17",
+     "url": "https://github.com/hanzoai/ci/pull/17",
+     "sha256": "d222dea4d24e36b65555e3f8f0b19a10b0da4168c82c8ebe6c66ca7a6914f8e1"
+    },
+    {
+     "ref": "hanzoai/ci#20",
+     "url": "https://github.com/hanzoai/ci/pull/20",
+     "sha256": "2bb93f896d7b12fc7a8951c266c19e3ae866ec770d48eb93bef29b939fc1e9cc"
+    },
+    {
+     "ref": "hanzoai/ci#25",
+     "url": "https://github.com/hanzoai/ci/pull/25",
+     "sha256": "7f281ea0f9fffadc237244364c38a2ff95f77c464d2d16ce1648b7be58b1a8b0"
+    },
+    {
+     "ref": "satoshinakamoto666666/ci#1",
+     "url": "https://github.com/satoshinakamoto666666/ci/pull/1",
+     "sha256": "36624a4b2ee437a885aaccb59d9c6918108f5f0dc0734b91b9f2151d0288f086"
+    },
+    {
+     "ref": "hanzoai/ci#26",
+     "url": "https://github.com/hanzoai/ci/pull/26",
+     "sha256": "7aa68fac81a54b9b32add8d1ea1cb96883ad4eea4d992baee8a6065d65d38c6e"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/ci#12",
+   "url": "https://github.com/hanzoai/ci/issues/12",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/ci#21"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/ci#16",
+     "url": "https://github.com/hanzoai/ci/pull/16",
+     "sha256": "8a6ea29b5d28595574fdac132aefc3382748936bf39975d87e590ea0a55e6aac"
+    },
+    {
+     "ref": "hanzoai/ci#18",
+     "url": "https://github.com/hanzoai/ci/pull/18",
+     "sha256": "64a70643ab644d18c2f040c3e786515358bb53c451e528239806289296e8a82d"
+    },
+    {
+     "ref": "hanzoai/ci#19",
+     "url": "https://github.com/hanzoai/ci/pull/19",
+     "sha256": "3c9df9ba7ffbbd32648b20f790eaeb3241eddf31e17bfc9afe60d527f4bcd0e6"
+    },
+    {
+     "ref": "hanzoai/ci#21",
+     "url": "https://github.com/hanzoai/ci/pull/21",
+     "sha256": "b03f570d1a3ba8db3a332d22969430432857cc8b18cb55f0e666f1e47d804017"
+    },
+    {
+     "ref": "satoshinakamoto666666/ci#2",
+     "url": "https://github.com/satoshinakamoto666666/ci/pull/2",
+     "sha256": "72b643bb51654a39b796592ab613b8a795b8906ee4dff790eb42758e9b3c934e"
+    },
+    {
+     "ref": "hanzoai/ci#27",
+     "url": "https://github.com/hanzoai/ci/pull/27",
+     "sha256": "7212394d79944d1a4f548620ae44cbd57c112563c6c912cb1f2a2ee622902e4c"
+    },
+    {
+     "ref": "hanzoai/ci#17",
+     "url": "https://github.com/hanzoai/ci/pull/17",
+     "sha256": "d222dea4d24e36b65555e3f8f0b19a10b0da4168c82c8ebe6c66ca7a6914f8e1"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/orm#8",
+   "url": "https://github.com/hanzoai/orm/issues/8",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/orm#17"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/orm#11",
+     "url": "https://github.com/hanzoai/orm/pull/11",
+     "sha256": "71c78beadaae53d88b7f30257b4781f6335d94e6d44ec463762c060c4fe5b974"
+    },
+    {
+     "ref": "hanzoai/orm#17",
+     "url": "https://github.com/hanzoai/orm/pull/17",
+     "sha256": "5de80a2c4fbcff09f77da707897a03232a2b7f5a135f48990ba54313e64558a5"
+    },
+    {
+     "ref": "hanzoai/orm#20",
+     "url": "https://github.com/hanzoai/orm/pull/20",
+     "sha256": "af1fe5e2137cc9d278b738abfa2dbcc33d0bb7d9314efe390034e0071111ee67"
+    },
+    {
+     "ref": "hanzoai/orm#21",
+     "url": "https://github.com/hanzoai/orm/pull/21",
+     "sha256": "79332eb17bc04cff25c0c94dc542973e86eaaa6620be2436f0e54b5fb13944ed"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/orm#7",
+   "url": "https://github.com/hanzoai/orm/issues/7",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/orm#13"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/orm#12",
+     "url": "https://github.com/hanzoai/orm/pull/12",
+     "sha256": "3d013fb73f52c2bc3c1105b9c3abff305157a7b01e86e6927c613153595f01af"
+    },
+    {
+     "ref": "hanzoai/orm#13",
+     "url": "https://github.com/hanzoai/orm/pull/13",
+     "sha256": "5ec132b6e3da7c87fa4e9576c9cfc408a019794462ebbd93bc54ba18ec5fc94c"
+    },
+    {
+     "ref": "hanzoai/orm#15",
+     "url": "https://github.com/hanzoai/orm/pull/15",
+     "sha256": "0ac693b09380418071ee0aa600d7c226df60ba91fd0e45c7b14407a63dc2db18"
+    },
+    {
+     "ref": "hanzoai/orm#18",
+     "url": "https://github.com/hanzoai/orm/pull/18",
+     "sha256": "ecf1479642a9a1c2bbff3b4e067703b2c0e5c639fd35df357c798f4ebad2e436"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/orm#6",
+   "url": "https://github.com/hanzoai/orm/issues/6",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/orm#16"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/orm#9",
+     "url": "https://github.com/hanzoai/orm/pull/9",
+     "sha256": "a0428e9877011e33c1efd32e5b64947aa5fbefef194c13ba8a59e56d7c48f47e"
+    },
+    {
+     "ref": "hanzoai/orm#10",
+     "url": "https://github.com/hanzoai/orm/pull/10",
+     "sha256": "224f5d264d9b9689daa4909279a5ab55db83b2925a6ac09856e09d4eefc55675"
+    },
+    {
+     "ref": "hanzoai/orm#14",
+     "url": "https://github.com/hanzoai/orm/pull/14",
+     "sha256": "5425b7ac53e5f1c6d6e15731692910a7c3b3334c84197c9254faceb2b749ace9"
+    },
+    {
+     "ref": "hanzoai/orm#16",
+     "url": "https://github.com/hanzoai/orm/pull/16",
+     "sha256": "4728e1ca86901aeab3983c1b3b68541168420f1e1d85a01ffe182bf3ed66eb69"
+    },
+    {
+     "ref": "hanzoai/orm#18",
+     "url": "https://github.com/hanzoai/orm/pull/18",
+     "sha256": "ecf1479642a9a1c2bbff3b4e067703b2c0e5c639fd35df357c798f4ebad2e436"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/sqlite#4",
+   "url": "https://github.com/hanzoai/sqlite/issues/4",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/sqlite#14"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/sqlite#6",
+     "url": "https://github.com/hanzoai/sqlite/pull/6",
+     "sha256": "91b75afc96316ecc7d22de2946102cd04b694842aafb68518abf49ef85f50016"
+    },
+    {
+     "ref": "hanzoai/sqlite#7",
+     "url": "https://github.com/hanzoai/sqlite/pull/7",
+     "sha256": "f8ad05c33712a17e022e9a6c648fcc32c0be97e7f4a5391679d0404ffc09a75c"
+    },
+    {
+     "ref": "hanzoai/sqlite#11",
+     "url": "https://github.com/hanzoai/sqlite/pull/11",
+     "sha256": "7906540a0f432fb282a735967ebb2b8943a42852e8c486aeaf0c566d029e2d79"
+    },
+    {
+     "ref": "hanzoai/sqlite#12",
+     "url": "https://github.com/hanzoai/sqlite/pull/12",
+     "sha256": "b619cf48c02a7eff12032f61841a28652f02ee75d937bdcbc1cd5f1ab1e2fed0"
+    },
+    {
+     "ref": "hanzoai/sqlite#14",
+     "url": "https://github.com/hanzoai/sqlite/pull/14",
+     "sha256": "fdc2ac8f76328f3c7cab62b3caad3968b1627a69de2fbb5304590fdc903d792d"
+    },
+    {
+     "ref": "hanzoai/sqlite#15",
+     "url": "https://github.com/hanzoai/sqlite/pull/15",
+     "sha256": "1c960ba2ebf839efe32611cf0318fee4f205d0a61dfccc0af5e4461900df783d"
+    },
+    {
+     "ref": "hanzoai/sqlite#17",
+     "url": "https://github.com/hanzoai/sqlite/pull/17",
+     "sha256": "31c8e6fa8c963c84a824ced52aecd9ea825698ccbf9b59a0979a8514426ed88f"
+    }
+   ]
+  },
+  {
+   "ref": "hanzoai/sqlite#3",
+   "url": "https://github.com/hanzoai/sqlite/issues/3",
+   "outcome": "one-merged",
+   "merged": [
+    "hanzoai/sqlite#5"
+   ],
+   "prs": [
+    {
+     "ref": "hanzoai/sqlite#5",
+     "url": "https://github.com/hanzoai/sqlite/pull/5",
+     "sha256": "4e1b580197267d83c3d1bab3cb12f62eb5fc07258596a772f3dbc5fd390c3023"
+    },
+    {
+     "ref": "hanzoai/sqlite#8",
+     "url": "https://github.com/hanzoai/sqlite/pull/8",
+     "sha256": "f5dffb4c7219566c249205f647bd6eaf3fe2ae10f42c43d61e98a0835a912ccb"
+    },
+    {
+     "ref": "hanzoai/sqlite#9",
+     "url": "https://github.com/hanzoai/sqlite/pull/9",
+     "sha256": "f063687f92acc638a3e891b4315eb8846d8c72b6ba165275cdb2f282ed6d6336"
+    },
+    {
+     "ref": "hanzoai/sqlite#10",
+     "url": "https://github.com/hanzoai/sqlite/pull/10",
+     "sha256": "09c4e698b1e10036565f554b4a3653aa3ef0d229ee0f5ce7c1411b5a04d934ef"
+    },
+    {
+     "ref": "hanzoai/sqlite#16",
+     "url": "https://github.com/hanzoai/sqlite/pull/16",
+     "sha256": "2330a443d5682fd81e06d98d0373c8841171624f075aeee2c369e163ada75894"
+    },
+    {
+     "ref": "hanzoai/sqlite#13",
+     "url": "https://github.com/hanzoai/sqlite/pull/13",
+     "sha256": "92d481fb0f998a901cf35f3fb9416eb91000db2338fc75aec605e7fd7561c7c9"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "issues_seen": 77,
+  "kept": 27,
+  "excluded": 1,
+  "below_min_prs": 49,
+  "prs": 167,
+  "one_merged": 24
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "sample_size": 20,
+ "seed": 0,
+ "rows_fully_agreed": 19,
+ "labels_checked": 60,
+ "labels_agreed": 59,
+ "label_agreement": 0.9833,
+ "disagreements": [
+  {
+   "issue": "hanzoai/ci#13",
+   "pr": 17,
+   "label": "addresses_issue",
+   "assistant": 1,
+   "owner": 0
+  }
+ ],
+ "note": "Agreement measured before the owner's correction was applied to labels.csv."
+}

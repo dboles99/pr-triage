@@ -20,3 +20,6 @@ pr-triage = "pr_triage.cli:main"
 
 [tool.setuptools]
 packages = ["pr_triage", "pr_triage.checks"]
+
+[tool.setuptools.package-data]
+pr_triage = ["weights.json"]

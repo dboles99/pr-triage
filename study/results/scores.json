@@ -1,0 +1,9074 @@
+{
+ "hanzoai/agents#10": {
+  "15": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5420761284189143
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.331
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.3153414242917437
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 4.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.6
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "20": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5554406552227656
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.48967738338632805
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 4.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 2.2
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "22": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.545473199697789
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2835
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.415313255665055
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 4.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 13.1
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "27": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5415999453214113
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.4923
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.5063111469985406
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 4.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 22.9
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "39": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5536738028567302
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.4923
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.23333253336526436
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 4.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 76.0
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "44": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5280180152172661
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.4054
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.1757251086348011
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 3.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 87.8
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "55": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.536362429689828
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.4234
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.47942096363693476
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 4.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 147.1
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  }
+ },
+ "hanzoai/agents#6": {
+  "18": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5252320655372332
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.041765274227415224
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.4
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "23": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5272761229358662
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.013460706708291205
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 13.1
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "3": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5029781650906117
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.9952
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.015119173907081642
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 3.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 331.3
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "45": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5122048312019969
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.017282796749841383
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 87.8
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "56": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.48972076837152934
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.009692862089603087
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 225.1
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "57": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5491213119567254
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.8505
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.033321722854954695
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 338.7
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/agents#7": {
+  "12": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5099749590477997
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0645
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0032786414308180137
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.4
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "17": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.42976019807945487
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.9302
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.10440205138044341
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.4
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "24": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5279280491976082
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.9091
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.05046907053461003
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 13.1
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "37": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5676446003496254
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0039406356290343746
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 52.8
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "38": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.47424768467169526
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.8837
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.011163348592165378
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 55.4
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "41": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5161526818661076
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0645
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.07408704899976633
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 2.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 80.7
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "46": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4785752854363946
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.9302
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.03861402731163054
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 87.8
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "48": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.49487437101157233
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.9302
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.08570053627465712
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 134.6
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/agents#8": {
+  "1": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5832140224090052
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.02830661453857369
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 2.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 378.1
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "11": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.48826373331912193
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.012327296592984201
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.4
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "13": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.48826373331912193
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.012327296592984201
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.4
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "16": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.615613721313458
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.5789
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.017133280879236882
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.3
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "19": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.478372984387373
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0019248507898329032
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 2.2
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "2": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.47584903787021054
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.015341426289264899
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 3.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 331.3
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "25": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5144601997741683
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.8431
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.009084866962634056
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 13.1
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "35": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.6133678300489188
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.5287
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0006204383192370283
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 33.5
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "40": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5180930382315567
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1333
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.05106215031106065
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 78.7
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "47": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5685333515014834
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.898
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.053365317350728435
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 87.8
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "57": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5842309575357398
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2038
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.048402250439659886
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 338.7
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "58": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5737913140221107
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.8776
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.007894901792618631
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 345.3
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "59": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5892847287252977
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.01354520447257273
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 379.7
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/agents#9": {
+  "1": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5120420207972438
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3592
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0504444921740743
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 3.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 331.3
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "14": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5133344940396737
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.4625
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.014097894346484402
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 3.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.5
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "2": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.508104828526235
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.022060561847642282
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 2.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 3.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 380.5
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "21": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5690998504968056
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3431
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.05051872901682363
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 4.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 13.0
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "26": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5315107393620049
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.5165
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.027310630769550776
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 3.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 16.2
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "28": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.584993188983001
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.8669
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.018842340128745097
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 3.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 22.9
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "36": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.48626732786639987
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.8669
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.028389774803058217
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 2.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 3.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 37.2
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "42": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5371801618157196
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3955
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.030726249363467698
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 3.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 86.6
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "43": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5101209802426282
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.4936
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.022507039358000053
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 3.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 87.5
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "60": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.49245182231466206
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.007538790707708861
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 3.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 380.5
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "61": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.48867957296746306
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.6007
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.014906565794776986
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 3.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 398.7
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  }
+ },
+ "hanzoai/ai#130": {
+  "140": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5250474475469139
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0134
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.004786703693913244
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "144": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5545566456955453
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0657
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.047204159200516044
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.4
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "152": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5876733421823848
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.087
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.039039074742086004
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 7.2
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "169": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5247323605619592
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0463358042416057
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 47.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "172": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.538048640439562
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1047
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.01682072135443433
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 52.1
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "179": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5037765982182588
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1299
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.03306383035424222
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 65.0
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "8": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5371177929592358
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.10740246857212207
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 43.0
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  }
+ },
+ "hanzoai/ai#131": {
+  "142": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4884892326197078
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0714
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.008350681230101194
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.3
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "151": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.49287238145216067
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0402
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0003633703742973446
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 6.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "168": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5111415499776614
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.027845642756784614
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 47.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "174": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5313180043015688
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1662
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.027079583940327903
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 63.2
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "7": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5371139899425914
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.027385670775979948
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 40.8
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  }
+ },
+ "hanzoai/ai#132": {
+  "150": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5346312406628402
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.9425
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.004953864981623052
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 6.3
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "159": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.545788713964308
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1267
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.046991937363105835
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 24.7
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "167": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5554761594244729
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.009936172283451648
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 47.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "180": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5371139899425923
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1587
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.11583209786650597
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 65.0
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "183": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5755298651075863
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.9425
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.00968459180820373
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 79.9
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "6": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5777532269396521
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0131815334446129
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 40.8
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  }
+ },
+ "hanzoai/ai#133": {
+  "149": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5273348382685084
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1115
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0050267592545964555
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 5.0
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "151": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5076047612034216
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1221
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0015018114808825688
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 6.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "158": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5270961595606806
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1067
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.2307309729381689
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 24.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "166": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5588501964642922
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": null,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.04406132616462217
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 47.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "181": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4860464649678536
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0965
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.03764322624210557
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 65.0
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "5": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5704954391987784
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": null,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.05918156621327619
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 40.8
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  }
+ },
+ "hanzoai/ai#134": {
+  "141": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.50401979547401
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0892
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0438517913854248
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.8
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "165": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5956386115026923
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.11282222714319473
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 47.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "170": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5210162741171592
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0913
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.012929550303217182
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 51.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "173": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5281720206166972
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0874
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.09463527552490143
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 63.2
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "4": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.6145243591855774
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.07613795972376686
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 40.8
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  }
+ },
+ "hanzoai/ai#135": {
+  "147": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5770500338502251
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1028
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": false,
+    "value": 2.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.00946000996666991
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 4.2
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "149": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5333629458208345
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1115
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.006117999421493883
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 5.0
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "151": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5070022134802046
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1221
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0010095902336660731
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 6.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "155": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5208742676504742
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.108
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": false,
+    "value": 1.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.1027748151292945
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 11.3
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "176": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5573615913420914
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.108
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.03983007083043774
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 63.9
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  }
+ },
+ "hanzoai/ai#136": {
+  "154": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5458577278172889
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.9122
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.048775111577272566
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 9.0
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "164": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5513055537380629
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.04665725831264753
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 47.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "171": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.49079722262217707
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1239
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.012280100154058412
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 51.9
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "175": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5391441752316988
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1864
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.10039807303426113
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 63.9
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "184": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.571927358044386
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.9122
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.021550595865117577
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 80.0
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "3": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5573283820122784
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.027579198944764516
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 40.7
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  }
+ },
+ "hanzoai/ai#137": {
+  "1": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5799220189319461
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.35907683278233904
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 29.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "145": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5920281746492884
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0895
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.007494364178213531
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 2.8
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "157": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5731926785812325
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1037
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.024776795045026886
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 16.4
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "161": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5721160931684633
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0677
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.02157196653221868
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 25.3
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "162": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5906153649502978
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.03290462996679248
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 47.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "178": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5908217246165972
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0854
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.11009257338074278
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 64.1
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  }
+ },
+ "hanzoai/ai#138": {
+  "143": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5779151706066968
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1368
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.04042294701515201
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.3
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "147": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5952097003884015
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1425
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": false,
+    "value": 2.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.006289825690823774
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 4.2
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "149": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5191218205885011
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1115
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.009744970179949493
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 5.0
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "151": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.48902204093921664
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1221
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0047615353642999885
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 6.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "153": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5682256410407351
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.00017433758410593598
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 8.7
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "156": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5430609066073809
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0939
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.029116441596610382
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 13.7
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "160": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.516675253388962
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.098
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.019262936315709765
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 24.8
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "163": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.572156533680935
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.013885980998727905
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 47.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "177": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.56000835971594
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0973
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.04437950791379175
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 64.1
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "2": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5956467166657792
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.06048513088308711
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 29.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  }
+ },
+ "hanzoai/ci#12": {
+  "16": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5625275028077912
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3433
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.03297555150905653
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.3
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "17": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5918345664258123
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.1597207005412068
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 20.9
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "18": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.560185495372655
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.1940584927207553
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 20.9
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "19": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5319083684891865
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3231
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.18786042806430814
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 3.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 36.6
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "2": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5534099422376644
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.08628973291028309
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 2.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 380.5
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "21": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5428270804402783
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3542
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.03802891555015285
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 40.3
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "27": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5572921530679358
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.07705414087756902
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 380.5
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/ci#13": {
+  "1": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5829581900696756
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.6768
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.19754111551359083
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 2.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 378.1
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "14": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5181510880237027
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.4516
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.17074127801614775
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.8
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "17": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.6245752447792012
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1103
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.21958958035357726
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 20.9
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "20": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.6006396970144782
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.297
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.17060230624897915
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 3.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 36.6
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "25": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5810789919438657
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1962
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.16339758200472881
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 372.6
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "26": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5698626498380053
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.6768
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.28716808182517567
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 379.7
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/cli#11": {
+  "13": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4534514728097516
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.5926
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.01653809438147012
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.9
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "15": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5099130333136003
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.5926
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.03443522060862498
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 14.3
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/cli#12": {
+  "1": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5355574381333448
+   },
+   "ci_state": {
+    "passed": null,
+    "value": null
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.6824
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.004405318685729698
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 157.5
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "14": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5190042098629772
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.7362
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.00449083023773549
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.4
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "21": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5393197604271772
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.000841109738567203
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 28.8
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "22": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5239189947917787
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.7698
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.01709735242867564
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 3.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 36.5
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "23": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5388309862075529
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.7698
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.008222091466871376
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 110.2
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "43": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5389655396317595
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0024687132819300292
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 262.7
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "44": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5521575196598667
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.009825464495611924
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 262.8
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  }
+ },
+ "hanzoai/mcp#14": {
+  "15": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5456802600700033
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2659
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.00922075077849837
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.7
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "16": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5336088739358442
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1544
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.006671497646412639
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 13.6
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "17": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4976191403449949
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2105
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0039522869701035255
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 23.0
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "18": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5601372556895043
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0585
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.001067615352030413
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 2.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 75.7
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "20": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.547374824203846
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2659
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.017040360317235548
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 110.2
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "21": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5423426663168547
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2548
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.047772264230044686
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 131.8
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/orm#6": {
+  "10": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4372842919639775
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3265
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.03299770357251214
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.7
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "14": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.6051521452048919
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.00018338853192640284
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 4.8
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "16": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5086981594603905
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3265
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0037529962917922507
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 12.9
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "18": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4174315938395337
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.6085
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.004141769952806495
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 21.1
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "9": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.43213992736263857
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.5983
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.013158874889640265
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.1
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/orm#7": {
+  "12": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.41763247700964046
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.6444
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.030960434712095173
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.2
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "13": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.504377704923977
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2857
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.025113094077925217
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 4.5
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "15": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.49152127846655475
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2857
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.017984786933366102
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 12.2
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "18": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4432611686143489
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.6444
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.004465338571256507
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 21.1
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/orm#8": {
+  "11": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5281278017920916
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3294
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.16654687884341596
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.7
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "17": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.6654264005791275
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3288
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.041936382255215704
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 13.7
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "20": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5700336155282467
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.4342
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.14173153017275308
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 87.0
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "21": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5391456954915945
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.4057
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.03765564069884756
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 131.8
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/sqlite#3": {
+  "10": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.48733121168489096
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2526
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.007821701281440106
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 21.0
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "13": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4905051643902126
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.2
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.011636789208532462
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 37.5
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "16": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5009682580587103
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3418
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0075440857109732124
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 110.2
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "5": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5000795410451295
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.6727
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.012902925278101995
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.7
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "8": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.49853614301269017
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.0010641145782012591
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 4.8
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "9": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5205138920644936
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.6727
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.00736772316658191
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 1.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 20.2
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/sqlite#4": {
+  "11": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.49351241515235444
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3653
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.007316516400469976
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 28.8
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "12": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5563575386668604
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3642
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.030366916904473764
+   },
+   "payment_request": {
+    "passed": false,
+    "value": 2.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 34.7
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "14": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5334786787256756
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.4021
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.026328891786087483
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 86.9
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "15": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.531925125918526
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3215
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.016841945857003153
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 110.2
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "17": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5376554958297703
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3166
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.008960348700608611
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 131.8
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "6": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5301301561711526
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3006
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.07728554050889379
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.8
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  },
+  "7": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5299022998092043
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.3653
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.047769933245741705
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": true,
+    "value": 0.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 3.2
+   },
+   "touches_target": {
+    "passed": true,
+    "value": 1.0
+   }
+  }
+ },
+ "hanzoai/ui#257": {
+  "259": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4875115944377451
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.01573877645943936
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.4
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "261": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4875115944377451
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": false,
+    "value": 1.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.01573877645943936
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.4
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "262": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.49335336050500617
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": null,
+    "value": null
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.9605
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.036816047157177186
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 12.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.5
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "267": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4446092026968061
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": false,
+    "value": 1.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.987
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.020166931228781843
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 12.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 52.2
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "268": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5013629018516019
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": false,
+    "value": 1.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.987
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.08733988859337266
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 12.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 75.8
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "269": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4659807747110109
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.009395712392743843
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 76.8
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "278": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5080811253875452
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.9536
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.018148538804255904
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 12.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 86.7
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "279": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.501930390404833
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": null,
+    "value": null
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.95
+   },
+   "effort": {
+    "passed": true,
+    "value": 0.5
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.041090864489954304
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 12.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 87.5
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  }
+ },
+ "hanzoai/ui#258": {
+  "260": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5215201404664204
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1111
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.01670350097088665
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 1.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 0.4
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  },
+  "263": {
+   "addresses_issue": {
+    "passed": false,
+    "value": 0.4897689316201446
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.1111
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.004316024867834872
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": false,
+    "value": 2.0
+   },
+   "timing": {
+    "passed": null,
+    "value": 1.5
+   },
+   "touches_target": {
+    "passed": false,
+    "value": 0.0
+   }
+  }
+ },
+ "hanzoai/vfs#29": {
+  "35": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5006898651710098
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0136
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.005444643113100053
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 2.6
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  },
+  "37": {
+   "addresses_issue": {
+    "passed": true,
+    "value": 0.5750178389935656
+   },
+   "ci_state": {
+    "passed": true,
+    "value": 0.0
+   },
+   "claim_vs_diff": {
+    "passed": true,
+    "value": 0.0
+   },
+   "criteria_static": {
+    "passed": null,
+    "value": null
+   },
+   "duplicate_of": {
+    "passed": true,
+    "value": 0.0096
+   },
+   "effort": {
+    "passed": true,
+    "value": 1.0
+   },
+   "hidden_text": {
+    "passed": true,
+    "value": 0.0
+   },
+   "injection": {
+    "passed": true,
+    "value": 0.008867343590561797
+   },
+   "payment_request": {
+    "passed": true,
+    "value": 0.0
+   },
+   "residue": {
+    "passed": true,
+    "value": 0.0
+   },
+   "scope_creep": {
+    "passed": null,
+    "value": null
+   },
+   "timing": {
+    "passed": null,
+    "value": 5.8
+   },
+   "touches_target": {
+    "passed": null,
+    "value": null
+   }
+  }
+ }
+}

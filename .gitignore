@@ -8,3 +8,4 @@ out/
 .pr-triage-cache/
 .superpowers/
 study/raw/
+.mypy_cache/

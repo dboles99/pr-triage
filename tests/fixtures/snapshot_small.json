@@ -1,0 +1,46 @@
+{
+  "collected_at": "2026-11-16T00:00:00Z",
+  "method": "timeline cross-referenced pull requests, any state",
+  "complete": true,
+  "counts": {"linked_prs": 3},
+  "issue": {
+    "repo": "acme/widget",
+    "number": 1,
+    "url": "https://github.com/acme/widget/issues/1",
+    "title": "Fix the README install command 🚀",
+    "body": "## Summary\nThe README installs the upstream module.\n\n## What to do\n- Change the install line in `README.md` to `go get acme.dev/widget`.\n- Remove the `widgetc` CLI section.\n\n## Acceptance criteria\n- [ ] README must not contain `widgetc`\n- [ ] README must contain `go get acme.dev/widget`\n- [ ] Every link in the README returns 200\n\nPoints: 75 (reputation, not money)",
+    "labels": ["bounty", "bounty:starter"],
+    "created_at": "2026-11-01T00:00:00Z",
+    "comments": [{"author": "lin", "body": "我来处理这个问题。", "created_at": "2026-11-01T03:00:00Z"}]
+  },
+  "prs": [
+    {
+      "repo": "acme/widget", "number": 11, "url": "https://github.com/acme/widget/pull/11", "author": "ana",
+      "title": "Correct the install guide", "body": "Fixes #1. Removes the widgetc section and fixes go get.",
+      "state": "closed", "merged": true, "created_at": "2026-11-02T00:00:00Z", "head_sha": "a1", "head_available": true,
+      "files": [{"path": "README.md", "status": "modified", "additions": 2, "deletions": 9,
+                 "patch": "@@ -1,9 +1,2 @@\n-go get upstream.dev/widget\n+go get acme.dev/widget\n-## widgetc\n-go install upstream.dev/widget/cmd/widgetc\n"}],
+      "comments": [], "reviews": [{"author": "maint", "state": "APPROVED"}], "checks": [{"name": "ci", "result": "success"}], "reactions": 1
+    },
+    {
+      "repo": "acme/widget", "number": 12, "url": "https://github.com/acme/widget/pull/12", "author": "bot42",
+      "title": "Solution for bounty #1", "body": "I have implemented the README update. ===FILE: README.md===",
+      "state": "open", "merged": false, "created_at": "2026-11-02T01:00:00Z", "head_sha": "b2", "head_available": true,
+      "files": [{"path": "submissions/bot42/SOLUTION.md", "status": "added", "additions": 40, "deletions": 0,
+                 "patch": "@@ -0,0 +1,2 @@\n+# Proposed README\n+go get acme.dev/widget\n"}],
+      "comments": [], "reviews": [], "checks": [], "reactions": 0
+    },
+    {
+      "repo": "acme/widget", "number": 13, "url": "https://github.com/acme/widget/pull/13", "author": "cy",
+      "title": "Update README", "body": "Removed the widgetc section. Added tests.",
+      "state": "open", "merged": false, "created_at": "2026-11-03T00:00:00Z", "head_sha": "c3", "head_available": false,
+      "files": [
+        {"path": "README.md", "status": "modified", "additions": 1, "deletions": 1,
+         "patch": "@@ -1,3 +1,3 @@\n-go get upstream.dev/widget\n+go get acme.dev/widget\n ## widgetc\n go install upstream.dev/widget/cmd/widgetc\n"},
+        {"path": ".gitignore", "status": "modified", "additions": 1, "deletions": 0, "patch": "@@ -1 +1,2 @@\n+.aider*\n"},
+        {"path": "assets/logo.png", "status": "added", "additions": 0, "deletions": 0}
+      ],
+      "comments": [], "reviews": [], "checks": [], "reactions": 3
+    }
+  ]
+}
