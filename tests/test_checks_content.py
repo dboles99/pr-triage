@@ -101,3 +101,15 @@ class ReviewFixTests(unittest.TestCase):
         r = duplicate_of(b, [a, b])
         self.assertIsNone(r.passed)
         self.assertIn("patch not available", " ".join(e.detail for e in r.evidence))
+
+
+class MinorContentTests(unittest.TestCase):
+    def test_pending_ci_is_none(self):
+        self.assertIsNone(ci_state(pr(checks=[{"name": "ci", "result": "in_progress"}])).passed)
+        self.assertIsNone(ci_state(pr(checks=[{"name": "ci", "result": "queued"}, {"name": "b", "result": "success"}])).passed)
+
+    def test_hidden_text_and_residue_none_when_no_patch_visible(self):
+        p = pr(body="Fixes #1", files=[FileChange("big.json", "modified", 900, 10, None)])
+        self.assertIsNone(hidden_text(p).passed)
+        self.assertIsNone(residue(p).passed)
+        self.assertFalse(hidden_text(pr(body="<!-- hidden -->", files=[FileChange("big.json", "modified", 1, 1, None)])).passed)

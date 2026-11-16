@@ -273,7 +273,7 @@
   "44": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.5280180152172661
+    "value": 0.5270969221322427
    },
    "ci_state": {
     "passed": true,
@@ -301,7 +301,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.1757251086348011
+    "value": 0.22818524404046708
    },
    "payment_request": {
     "passed": true,
@@ -327,7 +327,7 @@
   "55": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.536362429689828
+    "value": 0.5445013998276397
    },
    "ci_state": {
     "passed": true,
@@ -355,7 +355,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.47942096363693476
+    "value": 0.4872234631044028
    },
    "payment_request": {
     "passed": true,
@@ -545,7 +545,7 @@
   "45": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.5122048312019969
+    "value": 0.5151112545762742
    },
    "ci_state": {
     "passed": true,
@@ -573,7 +573,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.017282796749841383
+    "value": 0.024990664776619653
    },
    "payment_request": {
     "passed": true,
@@ -1033,7 +1033,7 @@
   "46": {
    "addresses_issue": {
     "passed": false,
-    "value": 0.4785752854363946
+    "value": 0.479278431238329
    },
    "ci_state": {
     "passed": true,
@@ -1061,7 +1061,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.03861402731163054
+    "value": 0.054843147563399385
    },
    "payment_request": {
     "passed": true,
@@ -1629,7 +1629,7 @@
   "47": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.5685333515014834
+    "value": 0.5732705133547707
    },
    "ci_state": {
     "passed": true,
@@ -1657,7 +1657,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.053365317350728435
+    "value": 0.03163963035927275
    },
    "payment_request": {
     "passed": true,
@@ -2063,7 +2063,7 @@
   "26": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.5315107393620049
+    "value": 0.5276802520703755
    },
    "ci_state": {
     "passed": true,
@@ -2091,7 +2091,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.027310630769550776
+    "value": 0.02649109133846858
    },
    "payment_request": {
     "passed": true,
@@ -2279,7 +2279,7 @@
   "43": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.5101209802426282
+    "value": 0.5121008774374383
    },
    "ci_state": {
     "passed": true,
@@ -2307,7 +2307,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.022507039358000053
+    "value": 0.02552588913069602
    },
    "payment_request": {
     "passed": true,
@@ -3747,7 +3747,7 @@
   "141": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.50401979547401
+    "value": 0.5352956616251642
    },
    "ci_state": {
     "passed": true,
@@ -3775,7 +3775,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.0438517913854248
+    "value": 0.07704667599057828
    },
    "payment_request": {
     "passed": false,
@@ -6517,7 +6517,7 @@
   "23": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.5388309862075529
+    "value": 0.5207001906075975
    },
    "ci_state": {
     "passed": true,
@@ -6545,7 +6545,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.008222091466871376
+    "value": 0.01691391454572981
    },
    "payment_request": {
     "passed": true,
@@ -6897,7 +6897,7 @@
   "20": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.547374824203846
+    "value": 0.5597754219167426
    },
    "ci_state": {
     "passed": true,
@@ -6925,7 +6925,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.017040360317235548
+    "value": 0.021125077478326617
    },
    "payment_request": {
     "passed": true,
@@ -7659,7 +7659,7 @@
   "21": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.5391456954915945
+    "value": 0.5457250073075024
    },
    "ci_state": {
     "passed": true,
@@ -7687,7 +7687,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.03765564069884756
+    "value": 0.03005179221339789
    },
    "payment_request": {
     "passed": true,
@@ -7985,7 +7985,7 @@
   "9": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.5205138920644936
+    "value": 0.5178799302138022
    },
    "ci_state": {
     "passed": true,
@@ -8013,7 +8013,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.00736772316658191
+    "value": 0.011126952169954789
    },
    "payment_request": {
     "passed": false,
@@ -8203,7 +8203,7 @@
   "15": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.531925125918526
+    "value": 0.5558379677551271
    },
    "ci_state": {
     "passed": true,
@@ -8231,7 +8231,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.016841945857003153
+    "value": 0.029515260636729056
    },
    "payment_request": {
     "passed": true,
@@ -8257,7 +8257,7 @@
   "17": {
    "addresses_issue": {
     "passed": true,
-    "value": 0.5376554958297703
+    "value": 0.5430973453426775
    },
    "ci_state": {
     "passed": true,
@@ -8285,7 +8285,7 @@
    },
    "injection": {
     "passed": true,
-    "value": 0.008960348700608611
+    "value": 0.012390825253634885
    },
    "payment_request": {
     "passed": true,

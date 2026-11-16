@@ -71,7 +71,7 @@ What the study shows:
 - **The tool works better as a filter.** When `touches_target` says a PR misses the files the
   issue names, it agrees with the manual labels 94% of the time.
 - **The Kai checks did not earn a place.** The injection screen missed its own positive control,
-  and "addresses the issue" and "effort" scored AUC 0.51 and 0.54 against the labels. So they carry
+  and "addresses the issue" and "effort" scored AUC 0.52 and 0.54 against the labels. So they carry
   no weight.
 - **Some checks never fired on this data** (`residue`, `ci_state` and others), so they cannot help
   here.

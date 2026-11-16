@@ -38,7 +38,7 @@ class ActionTests(unittest.TestCase):
         self.assertIn("advisory", body.lower())
 
     def test_upsert_updates_existing_marked_comment(self):
-        fake = FakeGitHub({"repos/a/b/issues/7/comments?per_page=100": (200, {}, [{"id": 5, "body": MARKER + "\nold"}]),
+        fake = FakeGitHub({"repos/a/b/issues/7/comments?per_page=100": (200, {}, [{"id": 5, "body": MARKER + "\nold", "user": {"login": "github-actions[bot]"}}]),
                            "repos/a/b/issues/comments/5": (200, {}, {"id": 5})})
         upsert_comment(GitHub(token="t", opener=fake), "a/b", 7, MARKER + "\nnew")
         self.assertEqual(fake.requests[-1]["method"], "PATCH")
@@ -70,3 +70,16 @@ class PermissionTests(unittest.TestCase):
             fake = FakeGitHub({"repos/a/b/collaborators/u/permission": (200, {}, {"permission": perm, "role_name": perm})})
             self.assertEqual(has_write_access(GitHub(token="t", opener=fake), "a/b", "u"), ok, perm)
         self.assertFalse(has_write_access(GitHub(token="t", opener=FakeGitHub({})), "a/b", "u"))
+
+
+class MinorActionTests(unittest.TestCase):
+    def test_upsert_only_edits_bot_comment(self):
+        fake = FakeGitHub({"repos/a/b/issues/7/comments?per_page=100": (200, {}, [{"id": 5, "body": MARKER + "\nspoof", "user": {"login": "mallory"}}]),
+                           "repos/a/b/issues/7/comments": (201, {}, {"id": 9})})
+        upsert_comment(GitHub(token="t", opener=fake), "a/b", 7, MARKER + "\nnew")
+        self.assertEqual(fake.requests[-1]["method"], "POST")
+
+    def test_example_workflow_pins_a_version(self):
+        text = (ROOT / "examples" / "triage.yml").read_text(encoding="utf-8")
+        self.assertNotIn("pr-triage@main", text)
+        self.assertRegex(text, r"dboles99/pr-triage@(v\d+\.\d+\.\d+|[0-9a-f]{40})")

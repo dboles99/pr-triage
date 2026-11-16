@@ -49,7 +49,8 @@ def _not_run(reason: str) -> list[CheckResult]:
 def model_checks(issue: Issue, pr: PR, kai: Kai | None) -> list[CheckResult]:
     if kai is None or not kai.available:
         return _not_run("no Hanzo key")
-    state = {"prompt": (pr.body or "")[:MAX_CHARS], "issue": f"{issue.title}\n{issue.body or ''}"[:MAX_CHARS],
+    own = "\n\n".join(c.get("body", "") for c in pr.comments if c.get("author") == pr.author)
+    state = {"prompt": ((pr.body or "") + ("\n\n" + own if own else ""))[:MAX_CHARS], "issue": f"{issue.title}\n{issue.body or ''}"[:MAX_CHARS],
              "change": change_summary(pr)}
     try:
         d = kai.decide(state, MODEL_QUESTIONS)

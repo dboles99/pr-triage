@@ -89,3 +89,29 @@ class CrossRepoTests(unittest.TestCase):
         md, js = render(issue, both, res, {k: score(v, w["weights"]) for k, v in res.items()}, {"weights": w["weights"]})
         self.assertEqual(len(js["ranking"]), 2)
         self.assertIn("acme/other#11", md)
+
+
+class MinorReviewTests(unittest.TestCase):
+    def test_link_check_refuses_private_addresses(self):
+        from unittest import mock
+        from pr_triage import cli
+        class Ok:
+            status = 200
+            def __enter__(self): return self
+            def __exit__(self, *a): pass
+        with mock.patch.object(cli.urllib.request, "urlopen", return_value=Ok()) as op:
+            for url in ("http://127.0.0.1/x", "http://localhost:8080/", "http://169.254.169.254/latest", "http://10.1.2.3/"):
+                self.assertEqual(cli._head_status(url), 0, url)
+            self.assertEqual(op.call_count, 0)
+
+    def test_report_lists_free_text_criteria(self):
+        d = json.loads(FIX.read_text(encoding="utf-8"))
+        d["issue"]["body"] += "\n- [ ] The README reads naturally for new users\n"
+        d["issue"]["body"] = d["issue"]["body"].replace("Points: 75 (reputation, not money)", "")
+        with tempfile.TemporaryDirectory() as t:
+            p = Path(t) / "s.json"
+            p.write_text(json.dumps(d, ensure_ascii=False), encoding="utf-8")
+            with contextlib.redirect_stdout(io.StringIO()):
+                main(["review", "acme/widget#1", "--snapshot", str(p), "--out", str(Path(t) / "o"), "--no-kai", "--offline"])
+            md = (Path(t) / "o" / "report.md").read_text(encoding="utf-8")
+        self.assertIn("The README reads naturally for new users", md)

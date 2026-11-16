@@ -6,7 +6,7 @@ import hashlib
 import json
 from pathlib import Path
 
-from .github import GitHub, GitHubError, NotFound
+from .github import GitHub, GitHubError, NotFound, ServerError
 
 METHOD = "issue timeline cross-referenced events whose source is a pull request, any state, any repo"
 
@@ -35,10 +35,20 @@ def _collect_pr(gh: GitHub, repo: str, n: int) -> dict:
     checks_available = True
     try:
         runs = (gh.get(f"repos/{repo}/commits/{sha}/check-runs?per_page=100") or {}).get("check_runs", [])
+    except ServerError:
+        raise
     except (NotFound, GitHubError):
         runs, checks_available = [], False
+    try:  # legacy commit statuses (DESIGN 5.1)
+        statuses = (gh.get(f"repos/{repo}/commits/{sha}/status") or {}).get("statuses", [])
+    except ServerError:
+        raise
+    except (NotFound, GitHubError):
+        statuses = []
     try:
         reactions = ((gh.get(f"repos/{repo}/issues/{n}") or {}).get("reactions") or {}).get("total_count", 0)
+    except ServerError:
+        raise
     except (NotFound, GitHubError):
         reactions = 0
     return {
@@ -51,7 +61,8 @@ def _collect_pr(gh: GitHub, repo: str, n: int) -> dict:
         "comments": [_comment(c) for c in gh.get(f"repos/{repo}/issues/{n}/comments?per_page=100") or []],
         "reviews": [{"author": (r.get("user") or {}).get("login", ""), "state": r.get("state", ""), "body": r.get("body") or ""}
                     for r in gh.get(f"repos/{repo}/pulls/{n}/reviews?per_page=100") or []],
-        "checks": [{"name": c.get("name", ""), "result": c.get("conclusion") or c.get("status", "")} for c in runs],
+        "checks": [{"name": c.get("name", ""), "result": c.get("conclusion") or c.get("status", "")} for c in runs]
+                  + [{"name": s.get("context", ""), "result": s.get("state", "")} for s in statuses],
         "checks_available": checks_available,
         "reactions": int(reactions or 0),
     }
@@ -84,13 +95,16 @@ def collect(repo: str, number: int, gh: GitHub, out: Path, resume: bool = True) 
             "linked": [list(x) for x in linked_prs(gh, repo, number)], "prs": [],
         }
     done = {(p["repo"], p["number"]) for p in snap["prs"]}
+    done |= {(m.rsplit("#", 1)[0], int(m.rsplit("#", 1)[1])) for m in snap.get("missing", [])}
     for r, n in [tuple(x) for x in snap["linked"]]:
         if (r, n) in done:
             continue
         try:
             snap["prs"].append(_collect_pr(gh, r, n))
         except NotFound:
-            snap.setdefault("missing", []).append(f"{r}#{n}")
+            miss = snap.setdefault("missing", [])
+            if f"{r}#{n}" not in miss:
+                miss.append(f"{r}#{n}")
         except Exception:
             _write(out, snap)  # keep what we have, mark incomplete, let the caller see the error
             raise

@@ -17,7 +17,7 @@ Published data are references, hashes and derived check values only; contributor
 
 Deterministic checks always run; Kai checks are advisory and run only with a key. A PR's score is the weighted share of evaluated checks it passes; ties are broken uniformly at random for the tool and every baseline alike (expected reciprocal rank and expected top-1). Baselines: random order (exact expectation), earliest PR first, smallest diff first, most reactions first. Weights are fitted by leave-one-issue-out coordinate search on mean reciprocal rank.
 
-Weights used for the headline numbers: `0-unfitted-models-off`. Kai calls: 0 (0.0 micro-USD).
+Weights used for the headline numbers: `0-unfitted-models-off`. Kai calls: 14 (637.92 micro-USD).
 
 ## Results
 

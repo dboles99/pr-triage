@@ -27,6 +27,10 @@ class GitHubError(Exception):
     pass
 
 
+class ServerError(GitHubError):
+    """5xx: transient; must not be saved as data unavailable."""
+
+
 class GitHub:
     def __init__(self, token: str | None = None, opener=None, timeout: int = 60):
         self.token = token if token is not None else (os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN"))
@@ -43,8 +47,10 @@ class GitHub:
         except urllib.error.HTTPError as e:
             h = e.headers or {}
             e.close()
-            if e.code == 429 or (e.code == 403 and str(h.get("x-ratelimit-remaining", "")) == "0"):
-                raise RateLimited(str(h.get("x-ratelimit-reset", "unknown"))) from None
+            if e.code == 429 or (e.code == 403 and (str(h.get("x-ratelimit-remaining", "")) == "0" or h.get("retry-after"))):
+                raise RateLimited(str(h.get("x-ratelimit-reset") or f"retry after {h.get('retry-after')} s")) from None
+            if e.code >= 500:
+                raise ServerError(f"HTTP {e.code} for {url.replace(API, '')}") from None
             if e.code == 404:
                 raise NotFound(url.replace(API, "")) from None
             raise GitHubError(f"HTTP {e.code} for {url.replace(API, '')}") from None
@@ -87,6 +93,8 @@ def file_text_at(gh: GitHub, repo: str, path: str, sha: str) -> str | None:
     """File content at a commit, or None when the file, commit or fork is gone."""
     try:
         obj = gh.get(f"repos/{repo}/contents/{urllib.parse.quote(path, safe='/')}?ref={urllib.parse.quote(sha, safe='')}")
+    except ServerError:
+        raise
     except (NotFound, GitHubError, UnicodeError, ValueError):
         return None
     if not isinstance(obj, dict) or obj.get("encoding") != "base64":

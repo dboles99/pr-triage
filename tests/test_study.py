@@ -148,3 +148,26 @@ class StudyTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ControlsFirstTests(unittest.TestCase):
+    def test_controls_run_before_pr_decisions(self):
+        import tests.test_kai as tk
+        order = []
+        class Spy(tk.FakeKai):
+            def __call__(self, req, timeout=None):
+                order.append(set(json.loads(req.data)["questions"]))
+                return super().__call__(req, timeout)
+        from pr_triage.kai import Kai
+        with tempfile.TemporaryDirectory() as t:
+            t = Path(t)
+            calls = []
+            def fake_collect(repo, n, out):
+                s = copy.deepcopy(SNAPS[f"{repo}#{n}"])
+                Path(out).parent.mkdir(parents=True, exist_ok=True)
+                Path(out).write_text(json.dumps(s, ensure_ascii=False), encoding="utf-8")
+                return s
+            man = study.build_dataset(["acme/one#1"], t / "raw", collect_fn=fake_collect)
+            study.run_study(man, t / "raw", t / "o", Kai("fake-key-for-tests-b", t / "c", max_calls=6, opener=Spy()))
+        self.assertEqual(len(order), 6)
+        self.assertTrue(all(len(q) == 1 for q in order))  # all six controls ran; PR decisions were the ones cut by the budget

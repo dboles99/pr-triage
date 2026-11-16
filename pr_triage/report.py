@@ -48,7 +48,9 @@ def render(issue: Issue, prs: list[PR], results: dict[str, list[CheckResult]], s
           "Checks run: " + (", ".join(run) or "none"), ""]
     if not_run:
         md += ["Checks not run: " + "; ".join(f"{k} ({v})" for k, v in not_run.items()), ""]
-    md += ([f"Acceptance criteria found: {len(crits)}"] if crits else
+    free = [c.text for c in crits if c.kind == "free_text"]
+    md += ([f"Acceptance criteria found: {len(crits)}"]
+           + (["Free-text criteria for the reviewer: " + "; ".join(_esc(x) for x in free)] if free else []) if crits else
            ["No acceptance criteria found in the issue; no PR is penalised for this."]) + [""]
     md += ["This report ranks and explains. The maintainer decides. Model results are advisory.", "",
            "| Rank | PR | Author | Score | Main reason |", "|---:|---|---|---:|---|"]

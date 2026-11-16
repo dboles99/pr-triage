@@ -5,6 +5,7 @@ import argparse
 import functools
 import json
 import re
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -13,8 +14,22 @@ from . import __version__
 TARGET = re.compile(r"^(?P<repo>[\w.-]+/[\w.-]+)#(?P<n>\d+)$")
 
 
+def _public_host(url: str) -> bool:
+    import ipaddress
+    import socket
+    host = urllib.parse.urlsplit(url).hostname
+    if not host:
+        return False
+    try:
+        addrs = {a[4][0] for a in socket.getaddrinfo(host, None)}
+    except OSError:
+        return False
+    return all(ipaddress.ip_address(a.split("%")[0]).is_global for a in addrs)
+
+
 def _head_status(url: str) -> int:
-    if not url.startswith(("https://", "http://")):
+    """Status of a public http(s) URL; 0 for private, loopback, link-local or unresolvable hosts (never requested)."""
+    if not url.startswith(("https://", "http://")) or not _public_host(url):
         return 0
     try:
         req = urllib.request.Request(url, method="GET", headers={"User-Agent": "pr-triage"})

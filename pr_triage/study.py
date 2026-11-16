@@ -188,6 +188,7 @@ def run_study(manifest: dict, raw_dir: Path | None, out_dir: Path, kai: Kai | No
     w = weights or load_weights()
     scores, features, entries, truth, drift = {}, {}, {}, {}, {"changed": [], "missing": []}
     csv_rows = []
+    controls = _controls(kai)  # controls first: before trusting a question, and before the budget is spent
     for item in manifest["issues"]:
         ref = item["ref"]
         repo, n = _split(ref)
@@ -231,7 +232,6 @@ def run_study(manifest: dict, raw_dir: Path | None, out_dir: Path, kai: Kai | No
             "n_issues": len(rr), "mrr_ci95": list(cal.bootstrap_ci(rr)) if rr else None, "tie_rule": "expected over ties"}
     baselines_m = cal.baseline_mrr([entries[r] for r in one], truth)
     loio = cal.fit_weights_loio({r: features[r] for r in one}, truth) if len(one) >= 2 else None
-    controls = _controls(kai)
     calib = None
     metrics = {"tool": tool, "baselines": baselines_m, "loio": loio, "weights_version": w["version"], "controls": controls,
                "kai_calls": getattr(kai, "spent_calls", 0), "kai_micro_usd": round(getattr(kai, "spent_micro_usd", 0.0), 2),

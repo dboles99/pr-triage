@@ -11,6 +11,7 @@ from .github import GitHub, GitHubError, NotFound
 MARKER = "<!-- pr-triage -->"
 MAINTAINERS = {"OWNER", "MEMBER", "COLLABORATOR"}
 LIMIT = 60000
+BOT = "github-actions[bot]"
 
 
 def should_run(event: dict) -> bool:
@@ -50,7 +51,8 @@ def comment_body(report: dict, run_url: str) -> str:
 
 
 def upsert_comment(gh: GitHub, repo: str, number: int, body: str) -> None:
-    existing = [c for c in gh.get(f"repos/{repo}/issues/{number}/comments?per_page=100") or [] if (c.get("body") or "").startswith(MARKER)]
+    existing = [c for c in gh.get(f"repos/{repo}/issues/{number}/comments?per_page=100") or []
+                if (c.get("body") or "").startswith(MARKER) and (c.get("user") or {}).get("login") == BOT]
     if existing:
         gh.send("PATCH", f"repos/{repo}/issues/comments/{existing[-1]['id']}", {"body": body})
     else:

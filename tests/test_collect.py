@@ -119,3 +119,42 @@ class PathQuotingTests(unittest.TestCase):
         fake = FakeGitHub({quoted: (200, {}, {"encoding": "base64", "content": base64.b64encode("x".encode()).decode()})})
         self.assertEqual(file_text_at(GitHub(opener=fake), R, "docs/日本語.md", "s1"), "x")
         self.assertIsNone(file_text_at(GitHub(opener=FakeGitHub({})), R, "docs/日本語.md", "s1"))
+
+
+class MinorCollectTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.out = Path(self.tmp.name) / "snap.json"
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def test_server_error_on_optional_data_stops_and_is_resumable(self):
+        from pr_triage.github import ServerError
+        routes = {**base_routes([xref(11)]), **pr_routes(11)}
+        routes[f"repos/{R}/commits/s11/check-runs?per_page=100"] = (502, {}, {"message": "bad gateway"})
+        with self.assertRaises(ServerError):
+            collect(R, 1, GitHub(opener=FakeGitHub(routes)), self.out)
+        self.assertFalse(json.loads(self.out.read_text(encoding="utf-8"))["complete"])
+
+    def test_secondary_rate_limit_with_retry_after(self):
+        routes = {**base_routes([xref(11)]), **pr_routes(11)}
+        routes[f"repos/{R}/pulls/11"] = (403, {"retry-after": "60", "x-ratelimit-remaining": "4000"}, {"message": "secondary rate limit"})
+        with self.assertRaises(RateLimited):
+            collect(R, 1, GitHub(opener=FakeGitHub(routes)), self.out)
+
+    def test_missing_not_duplicated_on_resume(self):
+        routes = {**base_routes([xref(11), xref(12)]), **pr_routes(11)}
+        routes[f"repos/{R}/pulls/12"] = (404, {}, {})
+        routes[f"repos/{R}/issues/1/timeline?per_page=100"] = (200, {}, [xref(11), xref(12)])
+        s = collect(R, 1, GitHub(opener=FakeGitHub(routes)), self.out)
+        s["complete"] = False
+        self.out.write_text(json.dumps(s), encoding="utf-8")
+        s2 = collect(R, 1, GitHub(opener=FakeGitHub(routes)), self.out)
+        self.assertEqual(s2["missing"], [f"{R}#12"])
+
+    def test_commit_statuses_collected(self):
+        routes = {**base_routes([xref(11)]), **pr_routes(11)}
+        routes[f"repos/{R}/commits/s11/status"] = (200, {}, {"statuses": [{"context": "ci/legacy", "state": "failure"}]})
+        s = collect(R, 1, GitHub(opener=FakeGitHub(routes)), self.out)
+        self.assertIn({"name": "ci/legacy", "result": "failure"}, s["prs"][0]["checks"])

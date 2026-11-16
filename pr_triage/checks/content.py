@@ -91,10 +91,16 @@ def duplicate_of(pr: PR, others: list[PR]) -> CheckResult:
     return CheckResult("duplicate_of", "deterministic", round(best, 4), not copied_from, ev)
 
 
+def _no_patch_visible(pr: PR) -> bool:
+    return bool(pr.files) and all(f.patch is None for f in pr.files)
+
+
 def residue(pr: PR) -> CheckResult:
     ev = [Evidence("body" if src == "body" else "diff", f"answer/handoff residue: '{m.group(0)}'")
           for src, txt in (("body", pr.body or ""), ("diff", _added(pr))) for m in RESIDUE.finditer(txt)]
     ev += [Evidence(f.path, "solution document instead of an edit") for f in pr.files if RESIDUE_PATH.search(f.path)]
+    if not ev and _no_patch_visible(pr):
+        return CheckResult("residue", "deterministic", None, None, [Evidence("diff", "patch not available; diff not scanned")])
     return CheckResult("residue", "deterministic", float(len(ev)), not ev, ev)
 
 
@@ -103,6 +109,8 @@ def hidden_text(pr: PR) -> CheckResult:
     for src, txt in (("body", pr.body or ""), ("diff", _added(pr))):
         ev += [Evidence(src, f"HTML comment: {m.group(0)[:80]!r}") for m in HTML_COMMENT.finditer(txt)]
         ev += [Evidence(src, f"invisible/bidi control U+{ord(m.group(0)):04X}") for m in INVISIBLE.finditer(txt)]
+    if not ev and _no_patch_visible(pr):
+        return CheckResult("hidden_text", "deterministic", None, None, [Evidence("diff", "patch not available; diff not scanned")])
     return CheckResult("hidden_text", "deterministic", float(len(ev)), not ev, ev)
 
 
@@ -120,6 +128,9 @@ def ci_state(pr: PR) -> CheckResult:
     if not pr.checks:
         return CheckResult("ci_state", "deterministic", None, None, [Evidence("checks", "no CI data (not a pass)")])
     bad = [c for c in pr.checks if str(c.get("result", "")).lower() in ("failure", "error", "cancelled", "timed_out", "action_required")]
+    pending = [c for c in pr.checks if str(c.get("result", "")).lower() in ("queued", "in_progress", "pending", "waiting", "requested", "")]
+    if not bad and pending:
+        return CheckResult("ci_state", "deterministic", None, None, [Evidence(c.get("name", "check"), "not finished") for c in pending])
     return CheckResult("ci_state", "deterministic", float(len(bad)), not bad,
                        [Evidence(c.get("name", "check"), f"result {c.get('result')}") for c in (bad or pr.checks)])
 

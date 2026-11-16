@@ -119,8 +119,8 @@
    "pass": false
   }
  ],
- "kai_calls": 0,
- "kai_micro_usd": 0.0,
+ "kai_calls": 14,
+ "kai_micro_usd": 637.92,
  "diagnosis": {
   "pass_rates": {
    "addresses_issue": {
