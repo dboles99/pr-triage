@@ -1,0 +1,17 @@
+# Temporary: live test of the pr-triage Action from the build branch. Removed after the test.
+name: pr-triage test
+on:
+  issue_comment:
+    types: [created]
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+jobs:
+  triage:
+    if: ${{ !github.event.issue.pull_request && github.event.comment.body == '/triage' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dboles99/pr-triage@build/v0.1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
